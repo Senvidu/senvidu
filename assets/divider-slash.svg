@@ -1,48 +1,44 @@
-<svg width="900" height="30" viewBox="0 0 900 30" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      @keyframes slashIn {
-        0%   { stroke-dashoffset: 900; opacity: 0; }
-        30%  { opacity: 1; }
-        70%  { opacity: 1; }
-        100% { stroke-dashoffset: 0; opacity: 0.7; }
-      }
-      @keyframes dotPulse {
-        0%, 100% { r: 2.5; opacity: 0.7; }
-        50%       { r: 4;   opacity: 1; }
-      }
-      .slash-line { stroke-dasharray: 900; animation: slashIn 3s ease-out forwards; }
-      .dot-pulse  { animation: dotPulse 2s ease-in-out infinite; }
-    </style>
-    <linearGradient id="slashGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#1A1A1A"/>
-      <stop offset="10%"  stop-color="#BC002D"/>
-      <stop offset="40%"  stop-color="#D4AF37"/>
-      <stop offset="60%"  stop-color="#D4AF37"/>
-      <stop offset="90%"  stop-color="#BC002D"/>
-      <stop offset="100%" stop-color="#1A1A1A"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="900" height="30" fill="#1A1A1A" opacity="0"/>
-
-  <!-- Main slash line -->
-  <line class="slash-line" x1="0" y1="15" x2="900" y2="15"
-        stroke="url(#slashGrad)" stroke-width="1.2"/>
-
-  <!-- Slash marks across the line -->
-  <line x1="418" y1="6"  x2="428" y2="24" stroke="#BC002D" stroke-width="1.5" opacity="0.9"/>
-  <line x1="424" y1="6"  x2="434" y2="24" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/>
-  <line x1="466" y1="6"  x2="476" y2="24" stroke="#BC002D" stroke-width="1.5" opacity="0.9"/>
-  <line x1="472" y1="6"  x2="482" y2="24" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/>
-
-  <!-- Center diamond -->
-  <polygon points="450,8 456,15 450,22 444,15" fill="#D4AF37" opacity="0.85"/>
-  <polygon points="450,10 454,15 450,20 446,15" fill="#1A1A1A"/>
-
-  <!-- Accent dots -->
-  <circle class="dot-pulse" cx="200" cy="15" r="2.5" fill="#BC002D"/>
-  <circle class="dot-pulse" cx="700" cy="15" r="2.5" fill="#BC002D" style="animation-delay:1s"/>
-  <circle cx="100" cy="15" r="1.5" fill="#D4AF37" opacity="0.5"/>
-  <circle cx="800" cy="15" r="1.5" fill="#D4AF37" opacity="0.5"/>
+<svg width="900" height="28" viewBox="0 0 900 28" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+  @keyframes slashDraw{0%{stroke-dashoffset:920;opacity:0}25%{opacity:1}75%{opacity:1}100%{stroke-dashoffset:0;opacity:.75}}
+  @keyframes dotPop{0%,100%{r:2;opacity:.6}50%{r:3.5;opacity:1}}
+  @keyframes leafPop{0%,100%{opacity:.3}50%{opacity:.7}}
+  .sLine{stroke-dasharray:920;animation:slashDraw 3.5s ease-out forwards}
+  .dp{animation:dotPop 2.5s ease-in-out infinite}
+  .lf{animation:leafPop 3s ease-in-out infinite}
+</style>
+<linearGradient id="sg" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%"   stop-color="#040202"/>
+  <stop offset="12%"  stop-color="#7A0010"/>
+  <stop offset="35%"  stop-color="#BC0020"/>
+  <stop offset="50%"  stop-color="#D4AF37"/>
+  <stop offset="65%"  stop-color="#BC0020"/>
+  <stop offset="88%"  stop-color="#7A0010"/>
+  <stop offset="100%" stop-color="#040202"/>
+</linearGradient>
+</defs>
+<rect width="900" height="28" fill="none"/>
+<!-- Main slash line -->
+<line class="sLine" x1="0" y1="14" x2="900" y2="14" stroke="url(#sg)" stroke-width="1.2"/>
+<!-- Katana slash marks center -->
+<line x1="428" y1="4"  x2="440" y2="24" stroke="#BC0020" stroke-width="1.8" opacity="0.95"/>
+<line x1="434" y1="4"  x2="446" y2="24" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/>
+<line x1="454" y1="4"  x2="466" y2="24" stroke="#BC0020" stroke-width="1.8" opacity="0.95"/>
+<line x1="460" y1="4"  x2="472" y2="24" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/>
+<!-- Center diamond -->
+<polygon points="450,6 457,14 450,22 443,14" fill="#D4AF37" opacity="0.8"/>
+<polygon points="450,9 454,14 450,19 446,14" fill="#040202"/>
+<!-- Accent dots -->
+<circle class="dp" cx="220" cy="14" r="2" fill="#BC0020"/>
+<circle class="dp" cx="680" cy="14" r="2" fill="#BC0020" style="animation-delay:1.2s"/>
+<circle cx="110" cy="14" r="1.2" fill="#7A0010" opacity="0.5"/>
+<circle cx="790" cy="14" r="1.2" fill="#7A0010" opacity="0.5"/>
+<!-- Small leaf accents -->
+<g class="lf" transform="translate(380,14)">
+  <path d="M0,-5 L1,-3 L3,-4 L2,-1 L4,0 L2,0 L1.5,3 L0,4 L-1.5,3 L-2,0 L-4,0 L-2,-1 L-3,-4 L-1,-3 Z" fill="#BC0020" opacity="0.6"/>
+</g>
+<g class="lf" transform="translate(520,14)" style="animation-delay:1.5s">
+  <path d="M0,-5 L1,-3 L3,-4 L2,-1 L4,0 L2,0 L1.5,3 L0,4 L-1.5,3 L-2,0 L-4,0 L-2,-1 L-3,-4 L-1,-3 Z" fill="#BC0020" opacity="0.6"/>
+</g>
 </svg>

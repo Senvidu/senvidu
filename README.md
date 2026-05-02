@@ -1,31 +1,22 @@
 <div align="center">
 
-<img src="./assets/header.svg" alt="The Legend of Senvidu — Backend API Specialist" width="100%"/>
+<img src="./assets/header.svg" alt="The Legend of Senvidu — Ghost of the Backend" width="100%"/>
 
 </div>
 
 <img src="./assets/divider-leaves.svg" width="100%"/>
 
----
+<br/>
 
 <div align="center">
 
-<table border="0" cellpadding="0" cellspacing="0">
-<tr>
-<td align="center" width="900">
-<br/>
-<p>
-<img src="https://img.shields.io/badge/Java-%23D4AF37?style=for-the-badge&logo=openjdk&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/Spring_Boot-%23BC002D?style=for-the-badge&logo=springboot&logoColor=F5F5F5"/>
-<img src="https://img.shields.io/badge/Node.js-%23D4AF37?style=for-the-badge&logo=nodedotjs&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/Express.js-%23BC002D?style=for-the-badge&logo=express&logoColor=F5F5F5"/>
-<img src="https://img.shields.io/badge/Rust-%23D4AF37?style=for-the-badge&logo=rust&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/PostgreSQL-%23BC002D?style=for-the-badge&logo=postgresql&logoColor=F5F5F5"/>
-<img src="https://img.shields.io/badge/MongoDB-%23D4AF37?style=for-the-badge&logo=mongodb&logoColor=1A1A1A"/>
-</p>
-</td>
-</tr>
-</table>
+<img src="https://img.shields.io/badge/Java-%23EDEAE3?style=for-the-badge&logo=openjdk&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/Spring_Boot-%23BC0020?style=for-the-badge&logo=springboot&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/Node.js-%23EDEAE3?style=for-the-badge&logo=nodedotjs&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/Express.js-%23BC0020?style=for-the-badge&logo=express&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/Rust-%23EDEAE3?style=for-the-badge&logo=rust&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/PostgreSQL-%23BC0020?style=for-the-badge&logo=postgresql&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/MongoDB-%23EDEAE3?style=for-the-badge&logo=mongodb&logoColor=0D0505"/>
 
 </div>
 
@@ -35,37 +26,35 @@
 
 <br/>
 
-## 〔 The Ghost of the Backend 〕
+## 〔 Ghost of the Backend 〕
 
-<p align="left">
-<i>I do not chase glory. I build the systems that make it possible.</i>
-</p>
+<p align="left"><i>I do not chase glory. I build the systems that make it possible.</i></p>
 
-Striving for precision in every line of code. I build **secure backend systems**, shape **clean REST APIs**, and architect digital foundations designed to scale — with **Java, Spring Boot, Node.js, Express.js, Rust, PostgreSQL, and MongoDB**.
+Striving for precision in every line of code. I build **secure backend systems**, shape **clean REST APIs**, and architect digital foundations designed to endure — with **Java, Spring Boot, Node.js, Express.js, Rust, PostgreSQL, and MongoDB**.
 
-Currently a **2nd-year Computer Science undergraduate** and a practicing backend developer who believes that the strength of a system lies not in its features, but in the **discipline of its design**.
+Currently a **2nd-year Computer Science undergraduate** and a practicing backend developer who believes the strength of a system lies not in its complexity, but in the **discipline of its design**.
 
 <br/>
 
 ```yaml
 # ── PROFILE ──────────────────────────────────────────────────────────
 identity:
-  name:       Senvidu
-  role:       Backend API Specialist
-  status:     2nd Year CS Undergraduate · Backend Developer Intern
-  creed:      "Clean architecture. Secure systems. Silent excellence."
+  name:        Senvidu
+  role:        Backend API Specialist
+  status:      2nd Year CS Undergraduate · Backend Developer Intern
+  creed:       "Clean architecture. Secure systems. Silent excellence."
 
 focus:
-  - REST API Design & Implementation
+  - REST API Design & Clean Architecture
   - Authentication & Authorization (JWT, OAuth2)
-  - Database Modeling & Query Design
-  - Clean Layered Architecture
+  - Database Modeling (PostgreSQL · MongoDB)
   - Production-Ready Backend Systems
+  - Cloud Deployment (GCP · Docker · CI/CD)
 
 currently_mastering:
-  - Spring Boot (service layer, JPA, security)
-  - Rust (Axum + SeaORM async backend)
-  - System design patterns for scalable APIs
+  - Spring Boot (JPA · Security · Service Layer)
+  - Rust (Axum · SeaORM · Async Backend)
+  - GCP Cloud Run & Cloud Build deployments
 # ────────────────────────────────────────────────────────────────────
 ```
 
@@ -75,7 +64,7 @@ currently_mastering:
 
 ---
 
-## ⚔️ The Six Combat Stances — Skills of the Ghost
+## ⚔️ The Eight Combat Stances
 
 *Each discipline is a blade. Each blade has its purpose.*
 
@@ -85,28 +74,39 @@ currently_mastering:
 <tr>
 <td valign="top" width="50%">
 
-### 🪨 Stone Stance — Core Backend
-The foundation. Unyielding. Precise.
+### 🪨 Stone Stance — Backend Core
+*The foundation. Unyielding. Precise.*
 
 <p>
-<img src="https://img.shields.io/badge/Java-D4AF37?style=flat-square&logo=openjdk&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/Spring_Boot-BC002D?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Node.js-D4AF37?style=flat-square&logo=nodedotjs&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/Express.js-BC002D?style=flat-square&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST_APIs-D4AF37?style=flat-square&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Java-BC0020?style=flat-square&logo=openjdk&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/Spring_Boot-EDEAE3?style=flat-square&logo=springboot&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/Node.js-BC0020?style=flat-square&logo=nodedotjs&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/Express.js-EDEAE3?style=flat-square&logo=express&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/JAX--RS-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/REST_APIs-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/API_Design-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Middleware-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/Backend_Architecture-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Clean_Architecture-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/Layered_Architecture-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Repository_Pattern-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/Service_Layer-BC0020?style=flat-square"/>
 </p>
 
 </td>
 <td valign="top" width="50%">
 
 ### 💧 Water Stance — Databases
-Shape and flow. Data finds its path.
+*Shape and flow. Data finds its path.*
 
 <p>
-<img src="https://img.shields.io/badge/PostgreSQL-D4AF37?style=flat-square&logo=postgresql&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/MongoDB-BC002D?style=flat-square&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Data_Modeling-D4AF37?style=flat-square"/>
-<img src="https://img.shields.io/badge/Query_Design-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/PostgreSQL-BC0020?style=flat-square&logo=postgresql&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/MongoDB-EDEAE3?style=flat-square&logo=mongodb&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/Data_Modeling-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Relational_DB_Design-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/NoSQL_Design-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Query_Design-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/In--Memory_Storage-BC0020?style=flat-square"/>
 </p>
 
 </td>
@@ -114,60 +114,107 @@ Shape and flow. Data finds its path.
 <tr>
 <td valign="top">
 
-### 🌬️ Wind Stance — Architecture & Code Flow
-Structure in motion. Systems that breathe.
+### 👻 Ghost Blade — Auth & Security
+*Invisible to attackers. Impossible to breach.*
 
 <p>
-<img src="https://img.shields.io/badge/Clean_Architecture-D4AF37?style=flat-square"/>
-<img src="https://img.shields.io/badge/Layered_Architecture-BC002D?style=flat-square"/>
-<img src="https://img.shields.io/badge/Repository_Pattern-D4AF37?style=flat-square"/>
-<img src="https://img.shields.io/badge/Service_Layer-BC002D?style=flat-square"/>
-<img src="https://img.shields.io/badge/API_Design-D4AF37?style=flat-square"/>
+<img src="https://img.shields.io/badge/JWT-BC0020?style=flat-square&logo=jsonwebtokens&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/OAuth2-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/RBAC-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/API_Security-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/Input_Validation-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Secure_Backend_Practices-EDEAE3?style=flat-square"/>
 </p>
 
 </td>
 <td valign="top">
 
-### 👻 Ghost Tools — Security & Auth
-Invisible to attackers. Impossible to breach.
+### ☁️ Heaven's Cloud — GCP & Deployment
+*Command the sky. Deploy with discipline.*
 
 <p>
-<img src="https://img.shields.io/badge/JWT-D4AF37?style=flat-square&logo=jsonwebtokens&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/OAuth2-BC002D?style=flat-square"/>
-<img src="https://img.shields.io/badge/RBAC-D4AF37?style=flat-square"/>
-<img src="https://img.shields.io/badge/Secure_API_Practices-BC002D?style=flat-square"/>
-<img src="https://img.shields.io/badge/Input_Validation-D4AF37?style=flat-square"/>
+<img src="https://img.shields.io/badge/Google_Cloud-BC0020?style=flat-square&logo=googlecloud&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/Cloud_Run-EDEAE3?style=flat-square&logo=googlecloud&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/Cloud_Build-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Artifact_Registry-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/Secret_Manager-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Cloud_Deployment-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/Env_Management-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/CI%2FCD_Pipelines-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/Docker-BC0020?style=flat-square&logo=docker&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-EDEAE3?style=flat-square&logo=githubactions&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/Terraform_(Basics)-BC0020?style=flat-square"/>
 </p>
 
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-### 🔧 Forge Tools — Development Workflow
-A craftsman's discipline. No shortcuts.
-
-<p>
-<img src="https://img.shields.io/badge/Git-D4AF37?style=flat-square&logo=git&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/GitHub-BC002D?style=flat-square&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-D4AF37?style=flat-square&logo=docker&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-BC002D?style=flat-square&logo=githubactions&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-D4AF37?style=flat-square&logo=postman&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/Jest-BC002D?style=flat-square&logo=jest&logoColor=white"/>
-</p>
-
-</td>
 <td valign="top">
 
 ### 🦀 Iron Path — Rust & Systems
-The hardest road. The sharpest edge.
+*The hardest road. The sharpest edge.*
 
 <p>
-<img src="https://img.shields.io/badge/Rust-D4AF37?style=flat-square&logo=rust&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/Axum-BC002D?style=flat-square"/>
-<img src="https://img.shields.io/badge/SeaORM-D4AF37?style=flat-square"/>
-<img src="https://img.shields.io/badge/CLI_Tools-BC002D?style=flat-square"/>
-<img src="https://img.shields.io/badge/Async_Backend-D4AF37?style=flat-square"/>
+<img src="https://img.shields.io/badge/Rust-BC0020?style=flat-square&logo=rust&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/Axum-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/SeaORM-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Tokio-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/Rust_CLI-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Async_Backend-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/Entity_Modeling-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Migration_Design-EDEAE3?style=flat-square"/>
+</p>
+
+</td>
+<td valign="top">
+
+### 🔧 Forge Tools — DevOps & Workflow
+*A craftsman's discipline. No shortcuts.*
+
+<p>
+<img src="https://img.shields.io/badge/Git-BC0020?style=flat-square&logo=git&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/GitHub-EDEAE3?style=flat-square&logo=github&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/Postman-BC0020?style=flat-square&logo=postman&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/Jest-EDEAE3?style=flat-square&logo=jest&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/Docker_Compose-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/VS_Code-EDEAE3?style=flat-square&logo=visualstudiocode&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/NetBeans-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/API_Testing-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/Debugging-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Env_Config-EDEAE3?style=flat-square"/>
+</p>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🌿 Wind Stance — Frontend Basics
+*Light as wind. Knows the other side of the wall.*
+
+<p>
+<img src="https://img.shields.io/badge/React-BC0020?style=flat-square&logo=react&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/Vite-EDEAE3?style=flat-square&logo=vite&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/JavaScript-BC0020?style=flat-square&logo=javascript&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/HTML-EDEAE3?style=flat-square&logo=html5&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/CSS-BC0020?style=flat-square&logo=css3&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/API_Integration-EDEAE3?style=flat-square"/>
+</p>
+
+</td>
+<td valign="top">
+
+### 📜 Scholar's Path — Software Engineering
+*The way is forged by study, not by chance.*
+
+<p>
+<img src="https://img.shields.io/badge/OOP-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Client--Server_Architecture-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/Error_Handling-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Modular_Code_Design-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/Code_Refactoring-BC0020?style=flat-square"/>
+<img src="https://img.shields.io/badge/Documentation-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/GitHub_README_Writing-BC0020?style=flat-square"/>
 </p>
 
 </td>
@@ -186,106 +233,91 @@ The hardest road. The sharpest edge.
 
 <br/>
 
-<table border="0" width="100%" cellpadding="8">
-
+<table border="0" width="100%" cellspacing="0">
 <tr>
-<td align="left" valign="top" width="50%"
-    style="background:#1A1A1A; border-left: 3px solid #BC002D; padding: 12px;">
+<td valign="top" width="50%" style="padding:12px; border-left:3px solid #BC0020;">
 
-**⚔️ rcontact**
-`ACTIVE QUEST`
+**⚔️ rcontact** &nbsp;`ACTIVE QUEST`
 
 > *A warrior's ledger, wrought in Rust.*
 
-CLI contact management system built with pure Rust. Local-first, fast, reliable. The Iron Path in practice.
+CLI contact management system built with pure Rust. Local-first, fast, and reliable. The Iron Path in daily practice.
 
 <p>
-<img src="https://img.shields.io/badge/Rust-D4AF37?style=flat-square&logo=rust&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/CLI-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/Rust-BC0020?style=flat-square&logo=rust&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/CLI-EDEAE3?style=flat-square"/>
 </p>
 
 </td>
-<td align="left" valign="top" width="50%"
-    style="background:#1A1A1A; border-left: 3px solid #D4AF37; padding: 12px;">
+<td valign="top" width="50%" style="padding:12px; border-left:3px solid #EDEAE3;">
 
-**⚔️ Contact Management Service API**
-`ACTIVE QUEST`
+**⚔️ Contact Management Service API** &nbsp;`ACTIVE QUEST`
 
 > *Steel-strong API, memory-safe by design.*
 
-Full backend REST API in Rust using Axum and SeaORM, backed by PostgreSQL. Async architecture, clean service layers, production mindset.
+Full REST backend in Rust — Axum + SeaORM + PostgreSQL. Async architecture, clean service layers, production mindset.
 
 <p>
-<img src="https://img.shields.io/badge/Rust-D4AF37?style=flat-square&logo=rust&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/Axum-BC002D?style=flat-square"/>
-<img src="https://img.shields.io/badge/PostgreSQL-D4AF37?style=flat-square&logo=postgresql&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/SeaORM-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/Rust-BC0020?style=flat-square&logo=rust&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/Axum-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/PostgreSQL-BC0020?style=flat-square&logo=postgresql&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/SeaORM-EDEAE3?style=flat-square"/>
 </p>
 
 </td>
 </tr>
-
 <tr>
-<td align="left" valign="top" width="50%"
-    style="background:#1A1A1A; border-left: 3px solid #D4AF37; padding: 12px;">
+<td valign="top" width="50%" style="padding:12px; border-left:3px solid #EDEAE3;">
 
-**⚔️ Bookstore REST API**
-`COMPLETED TALE`
+**⚔️ Bookstore REST API** &nbsp;`COMPLETED TALE`
 
 > *Every endpoint, a well-placed strike.*
 
-JAX-RS Java backend implementing full CRUD for a bookstore system. Clean resource design, proper HTTP semantics, structured layers.
+Java JAX-RS backend — full CRUD, clean resource design, proper HTTP semantics, structured layers.
 
 <p>
-<img src="https://img.shields.io/badge/Java-D4AF37?style=flat-square&logo=openjdk&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/JAX--RS-BC002D?style=flat-square"/>
-<img src="https://img.shields.io/badge/REST_API-D4AF37?style=flat-square"/>
+<img src="https://img.shields.io/badge/Java-BC0020?style=flat-square&logo=openjdk&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/JAX--RS-EDEAE3?style=flat-square"/>
+<img src="https://img.shields.io/badge/REST_API-BC0020?style=flat-square"/>
 </p>
 
 </td>
-<td align="left" valign="top" width="50%"
-    style="background:#1A1A1A; border-left: 3px solid #BC002D; padding: 12px;">
+<td valign="top" width="50%" style="padding:12px; border-left:3px solid #BC0020;">
 
-**⚔️ Spring Boot POS / Inventory System**
-`IN PROGRESS`
+**⚔️ Spring Boot POS / Inventory System** &nbsp;`IN PROGRESS`
 
 > *A merchant's empire, governed by clean code.*
 
-Full backend with Spring Boot — layered architecture (handlers → services → repositories → entities), database modeling, Spring Security integration.
+Spring Boot backend — handlers → services → repositories → entities. Spring Security, JPA, database modeling.
 
 <p>
-<img src="https://img.shields.io/badge/Spring_Boot-BC002D?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-D4AF37?style=flat-square&logo=postgresql&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/Spring_Security-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/Spring_Boot-BC0020?style=flat-square&logo=springboot&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/PostgreSQL-EDEAE3?style=flat-square&logo=postgresql&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/Spring_Security-BC0020?style=flat-square"/>
 </p>
 
 </td>
 </tr>
-
 <tr>
-<td align="left" valign="top" width="50%"
-    style="background:#1A1A1A; border-left: 3px solid #D4AF37; padding: 12px;">
+<td valign="top" width="50%" style="padding:12px; border-left:3px solid #EDEAE3;">
 
-**⚔️ MERN Backend APIs**
-`COMPLETED TALE`
+**⚔️ MERN Backend APIs** &nbsp;`COMPLETED TALE`
 
 > *The Node path. The Express blade.*
 
-RESTful backend APIs built with Node.js and Express.js, MongoDB for persistence, JWT authentication, modular route architecture.
+RESTful APIs with Node.js + Express.js + MongoDB. JWT authentication, modular route architecture.
 
 <p>
-<img src="https://img.shields.io/badge/Node.js-D4AF37?style=flat-square&logo=nodedotjs&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/Express.js-BC002D?style=flat-square&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-D4AF37?style=flat-square&logo=mongodb&logoColor=1A1A1A"/>
-<img src="https://img.shields.io/badge/JWT-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/Node.js-BC0020?style=flat-square&logo=nodedotjs&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/Express.js-EDEAE3?style=flat-square&logo=express&logoColor=0D0505"/>
+<img src="https://img.shields.io/badge/MongoDB-BC0020?style=flat-square&logo=mongodb&logoColor=EDEAE3"/>
+<img src="https://img.shields.io/badge/JWT-EDEAE3?style=flat-square"/>
 </p>
 
 </td>
-<td align="left" valign="top" width="50%" style="padding: 12px;">
-<!-- Spacer cell -->
+<td valign="top" width="50%" style="padding:12px;">
 </td>
 </tr>
-
 </table>
 
 <br/>
@@ -296,15 +328,13 @@ RESTful backend APIs built with Node.js and Express.js, MongoDB for persistence,
 
 ## 🏆 Honor Stats — The Scroll of Deeds
 
-*Numbers do not define the warrior. But they do not lie either.*
-
 <br/>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Senvidu&show_icons=true&theme=dark&bg_color=1A1A1A&title_color=D4AF37&text_color=F5F5F5&icon_color=BC002D&border_color=BC002D&border_radius=4&hide_border=false&count_private=true&include_all_commits=true" height="170" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Senvidu&layout=compact&theme=dark&bg_color=1A1A1A&title_color=D4AF37&text_color=F5F5F5&border_color=BC002D&border_radius=4&langs_count=8" height="170" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Senvidu&show_icons=true&theme=dark&bg_color=0D0505&title_color=EDEAE3&text_color=C8A8A8&icon_color=BC0020&border_color=BC0020&border_radius=2&hide_border=false&count_private=true&include_all_commits=true" height="165"/>
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Senvidu&layout=compact&theme=dark&bg_color=0D0505&title_color=EDEAE3&text_color=C8A8A8&border_color=BC0020&border_radius=2&langs_count=8" height="165"/>
 
 </div>
 
@@ -312,7 +342,7 @@ RESTful backend APIs built with Node.js and Express.js, MongoDB for persistence,
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Senvidu&theme=dark&background=1A1A1A&ring=D4AF37&fire=BC002D&currStreakLabel=D4AF37&sideLabels=F5F5F5&currStreakNum=F5F5F5&sideNums=D4AF37&dates=8A8A8A&border=BC002D&border_radius=4" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Senvidu&theme=dark&background=0D0505&ring=EDEAE3&fire=BC0020&currStreakLabel=EDEAE3&sideLabels=C8A8A8&currStreakNum=EDEAE3&sideNums=EDEAE3&dates=6A4040&border=BC0020&border_radius=2"/>
 
 </div>
 
@@ -320,7 +350,7 @@ RESTful backend APIs built with Node.js and Express.js, MongoDB for persistence,
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Senvidu&bg_color=1A1A1A&color=D4AF37&line=BC002D&point=D4AF37&area_color=BC002D&area=true&hide_border=false&border_color=BC002D&title_color=D4AF37&custom_title=⚔️%20The%20Ghost%27s%20Trail%20of%20Commits" alt="Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Senvidu&bg_color=0D0505&color=EDEAE3&line=BC0020&point=EDEAE3&area_color=BC0020&area=true&hide_border=false&border_color=BC0020&title_color=EDEAE3&custom_title=⚔️%20The%20Ghost%27s%20Trail%20of%20Commits"/>
 
 </div>
 
@@ -328,7 +358,7 @@ RESTful backend APIs built with Node.js and Express.js, MongoDB for persistence,
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Senvidu&theme=darkhub&no-frame=false&no-bg=false&margin-w=6&column=7&title_color=D4AF37&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Senvidu&theme=darkhub&no-frame=false&no-bg=false&margin-w=6&column=7"/>
 
 </div>
 
@@ -338,24 +368,22 @@ RESTful backend APIs built with Node.js and Express.js, MongoDB for persistence,
 
 <br/>
 
-## 🏮 Charms — The Ghost's Connections
-
-*Paths to find the warrior beyond the code.*
+## 🏮 Charms — Paths to the Ghost
 
 <br/>
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/chanithusenvidu" target="_blank">
-  <img src="https://img.shields.io/badge/Charm_of_Connectivity-LinkedIn-D4AF37?style=for-the-badge&logo=linkedin&logoColor=1A1A1A&labelColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Charm_of_Connectivity──LinkedIn-BC0020?style=for-the-badge&logo=linkedin&logoColor=EDEAE3&labelColor=0D0505"/>
 </a>
 &nbsp;
 <a href="https://chanithu-senvidu.netlify.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Charm_of_the_Portfolio-Portfolio-BC002D?style=for-the-badge&logo=firefox&logoColor=F5F5F5&labelColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Charm_of_the_Portfolio──Portfolio-EDEAE3?style=for-the-badge&logo=firefox&logoColor=0D0505&labelColor=0D0505"/>
 </a>
 &nbsp;
 <a href="https://github.com/Senvidu" target="_blank">
-  <img src="https://img.shields.io/badge/Charm_of_the_Code_Shrine-GitHub-D4AF37?style=for-the-badge&logo=github&logoColor=1A1A1A&labelColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Charm_of_the_Code_Shrine──GitHub-BC0020?style=for-the-badge&logo=github&logoColor=EDEAE3&labelColor=0D0505"/>
 </a>
 
 </div>
@@ -366,29 +394,28 @@ RESTful backend APIs built with Node.js and Express.js, MongoDB for persistence,
 
 ---
 
-## 📋 For the Recruiter — Plainly Spoken
+## 📋 For the Recruiter
 
 <br/>
 
 <div align="center">
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                                                                     │
-│   I specialize in designing and building backend APIs with          │
-│   clean architecture, secure authentication, strong database        │
-│   modeling, and production-focused development practices.           │
-│                                                                     │
-│   Stack:  Java · Spring Boot · Node.js · Express.js                 │
-│           Rust · PostgreSQL · MongoDB                               │
-│                                                                     │
-│   Auth:   JWT · OAuth2 · RBAC                                       │
-│   Tools:  Docker · GitHub Actions · Postman · Jest                  │
-│   Style:  Layered architecture · Repository pattern · Clean code    │
-│                                                                     │
-│   Open to backend engineering roles and internships.                │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│   I specialize in designing and building backend APIs with clean        │
+│   architecture, secure authentication, strong database modeling,        │
+│   and production-focused development practices.                         │
+│                                                                         │
+│   Backend:   Java · Spring Boot · Node.js · Express.js · Rust           │
+│   Database:  PostgreSQL · MongoDB                                        │
+│   Auth:      JWT · OAuth2 · RBAC                                        │
+│   Cloud:     GCP · Cloud Run · Cloud Build · Docker · GitHub Actions    │
+│   Pattern:   Layered Architecture · Repository · Service Layer          │
+│                                                                         │
+│   Open to backend engineering roles and internships.                    │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
 </div>
@@ -401,16 +428,16 @@ RESTful backend APIs built with Node.js and Express.js, MongoDB for persistence,
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=Senvidu&style=for-the-badge&color=BC002D&label=WARRIORS+WHO+PASSED+THROUGH"/>
+<img src="https://komarev.com/ghpvc/?username=Senvidu&style=for-the-badge&color=BC0020&label=WARRIORS+WHO+PASSED+THROUGH"/>
 
 <br/><br/>
 
 ```
-  ── The Ghost leaves no trace. Only working systems. ──
+  ── The ghost leaves no trace. Only working systems. ──
 ```
 
 <br/>
 
-*© Senvidu — Backend Architect · Code Samurai · Ghost of the API Layer*
+*© Senvidu — Ghost of the Backend · Backend API Specialist · 2nd Year CS*
 
 </div>

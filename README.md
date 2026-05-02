@@ -332,9 +332,7 @@ RESTful APIs with Node.js + Express.js + MongoDB. JWT authentication, modular ro
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Senvidu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" height="170"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Senvidu&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170"/>
+<img src="./assets/divider-slash.svg" width="100%"/>
 
 </div>
 

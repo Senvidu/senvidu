@@ -1,0 +1,48 @@
+<svg width="900" height="30" viewBox="0 0 900 30" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes slashIn {
+        0%   { stroke-dashoffset: 900; opacity: 0; }
+        30%  { opacity: 1; }
+        70%  { opacity: 1; }
+        100% { stroke-dashoffset: 0; opacity: 0.7; }
+      }
+      @keyframes dotPulse {
+        0%, 100% { r: 2.5; opacity: 0.7; }
+        50%       { r: 4;   opacity: 1; }
+      }
+      .slash-line { stroke-dasharray: 900; animation: slashIn 3s ease-out forwards; }
+      .dot-pulse  { animation: dotPulse 2s ease-in-out infinite; }
+    </style>
+    <linearGradient id="slashGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1A1A1A"/>
+      <stop offset="10%"  stop-color="#BC002D"/>
+      <stop offset="40%"  stop-color="#D4AF37"/>
+      <stop offset="60%"  stop-color="#D4AF37"/>
+      <stop offset="90%"  stop-color="#BC002D"/>
+      <stop offset="100%" stop-color="#1A1A1A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="30" fill="#1A1A1A" opacity="0"/>
+
+  <!-- Main slash line -->
+  <line class="slash-line" x1="0" y1="15" x2="900" y2="15"
+        stroke="url(#slashGrad)" stroke-width="1.2"/>
+
+  <!-- Slash marks across the line -->
+  <line x1="418" y1="6"  x2="428" y2="24" stroke="#BC002D" stroke-width="1.5" opacity="0.9"/>
+  <line x1="424" y1="6"  x2="434" y2="24" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/>
+  <line x1="466" y1="6"  x2="476" y2="24" stroke="#BC002D" stroke-width="1.5" opacity="0.9"/>
+  <line x1="472" y1="6"  x2="482" y2="24" stroke="#D4AF37" stroke-width="0.6" opacity="0.7"/>
+
+  <!-- Center diamond -->
+  <polygon points="450,8 456,15 450,22 444,15" fill="#D4AF37" opacity="0.85"/>
+  <polygon points="450,10 454,15 450,20 446,15" fill="#1A1A1A"/>
+
+  <!-- Accent dots -->
+  <circle class="dot-pulse" cx="200" cy="15" r="2.5" fill="#BC002D"/>
+  <circle class="dot-pulse" cx="700" cy="15" r="2.5" fill="#BC002D" style="animation-delay:1s"/>
+  <circle cx="100" cy="15" r="1.5" fill="#D4AF37" opacity="0.5"/>
+  <circle cx="800" cy="15" r="1.5" fill="#D4AF37" opacity="0.5"/>
+</svg>

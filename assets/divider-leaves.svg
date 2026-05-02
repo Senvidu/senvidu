@@ -1,0 +1,87 @@
+<svg width="900" height="40" viewBox="0 0 900 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes leaf-float1 {
+        0%   { transform: translate(0,0) rotate(0deg); opacity:0; }
+        5%   { opacity:0.75; }
+        95%  { opacity:0.75; }
+        100% { transform: translate(880px, 12px) rotate(600deg); opacity:0; }
+      }
+      @keyframes leaf-float2 {
+        0%   { transform: translate(0,0) rotate(20deg); opacity:0; }
+        5%   { opacity:0.6; }
+        95%  { opacity:0.6; }
+        100% { transform: translate(860px, -10px) rotate(-420deg); opacity:0; }
+      }
+      @keyframes leaf-float3 {
+        0%   { transform: translate(0,0) rotate(-10deg); opacity:0; }
+        5%   { opacity:0.5; }
+        95%  { opacity:0.5; }
+        100% { transform: translate(870px, 15px) rotate(540deg); opacity:0; }
+      }
+      @keyframes lineBreath {
+        0%, 100% { opacity: 0.35; }
+        50%       { opacity: 0.55; }
+      }
+      .lf1 { animation: leaf-float1 12s linear infinite; }
+      .lf2 { animation: leaf-float2 15s linear infinite 4s; }
+      .lf3 { animation: leaf-float3 10s linear infinite 7s; }
+      .lf4 { animation: leaf-float1 13s linear infinite 2s; }
+      .lf5 { animation: leaf-float2 11s linear infinite 9s; }
+      .lf6 { animation: leaf-float3 14s linear infinite 5s; }
+      .breath { animation: lineBreath 4s ease-in-out infinite; }
+    </style>
+    <linearGradient id="leafLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1A1A1A"/>
+      <stop offset="20%"  stop-color="#D4AF37" stop-opacity="0.4"/>
+      <stop offset="50%"  stop-color="#D4AF37" stop-opacity="0.6"/>
+      <stop offset="80%"  stop-color="#D4AF37" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1A1A1A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="40" fill="none"/>
+
+  <!-- Subtle background line -->
+  <line class="breath" x1="0" y1="20" x2="900" y2="20" stroke="url(#leafLineGrad)" stroke-width="0.8"/>
+
+  <!-- Ginkgo leaf at start (static decorative) -->
+  <path d="M30,20 Q22,8 27,3 Q30,0 33,3 Q38,8 30,20Z" fill="#D4AF37" opacity="0.3"/>
+  <line x1="30" y1="20" x2="30" y2="3" stroke="#D4AF37" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Ginkgo leaf at end (static decorative) -->
+  <path d="M870,20 Q862,8 867,3 Q870,0 873,3 Q878,8 870,20Z" fill="#D4AF37" opacity="0.3"/>
+  <line x1="870" y1="20" x2="870" y2="3" stroke="#D4AF37" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Drifting leaves (animated) -->
+  <!-- Gold leaf 1 -->
+  <g class="lf1" transform="translate(10, 14)" opacity="0">
+    <path d="M0,0 Q-7,-12 -2,-17 Q0,-19 2,-17 Q7,-12 0,0Z" fill="#D4AF37"/>
+    <line x1="0" y1="0" x2="0" y2="-17" stroke="#D4AF37" stroke-width="0.6"/>
+  </g>
+  <!-- Crimson leaf 2 -->
+  <g class="lf2" transform="translate(25, 28)" opacity="0">
+    <path d="M0,0 Q-5,-9 -2,-13 Q0,-15 2,-13 Q5,-9 0,0Z" fill="#BC002D"/>
+    <line x1="0" y1="0" x2="0" y2="-13" stroke="#BC002D" stroke-width="0.5"/>
+  </g>
+  <!-- Gold leaf 3 -->
+  <g class="lf3" transform="translate(15, 8)" opacity="0">
+    <path d="M0,0 Q-6,-10 -2,-15 Q0,-17 2,-15 Q6,-10 0,0Z" fill="#C09830"/>
+    <line x1="0" y1="0" x2="0" y2="-15" stroke="#C09830" stroke-width="0.5"/>
+  </g>
+  <!-- Small gold leaf 4 -->
+  <g class="lf4" transform="translate(8, 22)" opacity="0">
+    <path d="M0,0 Q-4,-7 -1,-10 Q0,-11 1,-10 Q4,-7 0,0Z" fill="#D4AF37" opacity="0.8"/>
+    <line x1="0" y1="0" x2="0" y2="-10" stroke="#D4AF37" stroke-width="0.4"/>
+  </g>
+  <!-- Crimson leaf 5 -->
+  <g class="lf5" transform="translate(20, 18)" opacity="0">
+    <path d="M0,0 Q-6,-11 -2,-16 Q0,-18 2,-16 Q6,-11 0,0Z" fill="#8A0020"/>
+    <line x1="0" y1="0" x2="0" y2="-16" stroke="#8A0020" stroke-width="0.5"/>
+  </g>
+  <!-- Small gold leaf 6 -->
+  <g class="lf6" transform="translate(12, 32)" opacity="0">
+    <path d="M0,0 Q-5,-8 -2,-12 Q0,-14 2,-12 Q5,-8 0,0Z" fill="#F0D060" opacity="0.7"/>
+    <line x1="0" y1="0" x2="0" y2="-12" stroke="#F0D060" stroke-width="0.4"/>
+  </g>
+</svg>

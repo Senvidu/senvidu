@@ -1,176 +1,173 @@
-<!--
-█▀▀ █░█ ▄▀█ █▄░█ █ ▀█▀ █░█ █░█   █▀ █▀▀ █▄░█ █░█ █ █▀▄ █░█
-█▄▄ █▀█ █▀█ █░▀█ █ ░█░ █▀█ █▄█   ▄█ ██▄ █░▀█ ▀▄▀ █ █▄▀ █▄█
-        > coding my way through the universe <
--->
+<div align="center">
 
-<a href="https://github.com/Senvidu">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E57F7,50:00D9FF,100:FF6B9D&height=220&section=header&text=Chanithu%20Senvidu&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%3E_%20Build.%20Break.%20Learn.%20Repeat.&descAlignY=62&descSize=18" width="100%" alt="header" />
-</a>
+<img src="./assets/header.svg" alt="The Legend of Senvidu — Backend API Specialist" width="100%"/>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=600&color=00D9FF&center=true&vCenter=true&width=820&height=45&lines=%24+whoami+%E2%86%92+Associate+Systems+Engineer;%24+cat+stack+%E2%86%92+Backend+%2F+Cloud+%2F+DevOps+%2F+Security;%24+sudo+make+chaos+%E2%86%92+APIs%2C+Systems%2C+Infrastructure;%24+echo+%22Always+Learning.+Always+Building.%22" alt="typing" />
-</p>
+</div>
 
-<p align="center">
-  <a href="https://chanithu-senvidu.netlify.app/"><img src="https://img.shields.io/badge/_PORTFOLIO-000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/chanithusenvidu"><img src="https://img.shields.io/badge/_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" /></a>&nbsp;
-  <a href="https://github.com/Senvidu"><img src="https://img.shields.io/badge/_GITHUB-171515?style=for-the-badge&logo=github&logoColor=white&labelColor=171515" /></a>&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Senvidu&style=for-the-badge&color=6E57F7&label=VISITORS" />&nbsp;
-  <img src="https://img.shields.io/github/followers/Senvidu?style=for-the-badge&color=00D9FF&labelColor=000&logo=github" />
-</p>
+<img src="./assets/divider-leaves.svg" width="100%"/>
 
-<br/>
+---
 
-```ansi
-╭──────────────────────────────────────────────────────────────────────────╮
-│  ◉  user@senvidu:~$ ./about.sh                                           │
-╰──────────────────────────────────────────────────────────────────────────╯
-```
+<div align="center">
 
-```typescript
-const chanithu: Developer = {
-  pronouns:  "he/him",
-  role:      "Associate Systems Engineer",
-  location:  "Colombo, Sri Lanka 🇱🇰",
-  education: "Computer Science Undergraduate",
-
-  stack: {
-    primary:   ["Java", "TypeScript", "Rust"],
-    backend:   ["Spring Boot", "Node.js", "Express", "Axum"],
-    cloud:     ["Docker", "AWS", "GCP", "GitHub Actions"],
-    security:  ["Fortinet", "VMware", "Network Architecture"]
-  },
-
-  currentlyHacking: ["Spring Boot + React POS", "Cloud Pipelines", "Rust APIs"],
-  motto:            "Build. Break. Learn. Repeat. 🔁"
-};
-```
-
-<br/>
-
-<!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                          TECH ARSENAL                                ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
-
-<h2 align="left">
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"/> Tech Arsenal
-</h2>
-
-<table align="center">
+<table border="0" cellpadding="0" cellspacing="0">
 <tr>
-<td valign="top" width="33%" align="center">
-
-### 💻 LANGUAGES
-<img src="https://skillicons.dev/icons?i=java,ts,js,rust,python&perline=3" />
+<td align="center" width="900">
 <br/>
-<img src="https://skillicons.dev/icons?i=html,css,bash&perline=3" />
-
-</td>
-<td valign="top" width="33%" align="center">
-
-### ⚙️ BACKEND
-<img src="https://skillicons.dev/icons?i=spring,nodejs,express,react,vite&perline=3" />
-<br/>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql&perline=3" />
-
-</td>
-<td valign="top" width="33%" align="center">
-
-### ☁️ INFRA
-<img src="https://skillicons.dev/icons?i=docker,aws,gcp,linux,nginx&perline=3" />
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,githubactions&perline=3" />
-
+<p>
+<img src="https://img.shields.io/badge/Java-%23D4AF37?style=for-the-badge&logo=openjdk&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Spring_Boot-%23BC002D?style=for-the-badge&logo=springboot&logoColor=F5F5F5"/>
+<img src="https://img.shields.io/badge/Node.js-%23D4AF37?style=for-the-badge&logo=nodedotjs&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Express.js-%23BC002D?style=for-the-badge&logo=express&logoColor=F5F5F5"/>
+<img src="https://img.shields.io/badge/Rust-%23D4AF37?style=for-the-badge&logo=rust&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/PostgreSQL-%23BC002D?style=for-the-badge&logo=postgresql&logoColor=F5F5F5"/>
+<img src="https://img.shields.io/badge/MongoDB-%23D4AF37?style=for-the-badge&logo=mongodb&logoColor=1A1A1A"/>
+</p>
 </td>
 </tr>
 </table>
 
+</div>
+
 <br/>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                       CURRENT OPERATIONS                             ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
+<img src="./assets/divider-slash.svg" width="100%"/>
 
-## 🛰️ Current Operations
+<br/>
+
+## 〔 The Ghost of the Backend 〕
+
+<p align="left">
+<i>I do not chase glory. I build the systems that make it possible.</i>
+</p>
+
+Striving for precision in every line of code. I build **secure backend systems**, shape **clean REST APIs**, and architect digital foundations designed to scale — with **Java, Spring Boot, Node.js, Express.js, Rust, PostgreSQL, and MongoDB**.
+
+Currently a **2nd-year Computer Science undergraduate** and a practicing backend developer who believes that the strength of a system lies not in its features, but in the **discipline of its design**.
+
+<br/>
 
 ```yaml
-🔧 backend:
-  - REST APIs & Microservices
-  - JWT Auth + Role-Based Access Control
-  - Layered Database Architecture
-  - Secure API Development
+# ── PROFILE ──────────────────────────────────────────────────────────
+identity:
+  name:       Senvidu
+  role:       Backend API Specialist
+  status:     2nd Year CS Undergraduate · Backend Developer Intern
+  creed:      "Clean architecture. Secure systems. Silent excellence."
 
-☁️  cloud_devops:
-  - Dockerized Containers
-  - CI/CD Pipelines (GitHub Actions)
-  - Cloud Deployments (AWS / GCP)
-  - Server Configuration & Hardening
+focus:
+  - REST API Design & Implementation
+  - Authentication & Authorization (JWT, OAuth2)
+  - Database Modeling & Query Design
+  - Clean Layered Architecture
+  - Production-Ready Backend Systems
 
-🛡️  infrastructure:
-  - VMware Virtualization
-  - Fortinet Firewalls
-  - Network Architecture
-  - System Administration
+currently_mastering:
+  - Spring Boot (service layer, JPA, security)
+  - Rust (Axum + SeaORM async backend)
+  - System design patterns for scalable APIs
+# ────────────────────────────────────────────────────────────────────
 ```
 
 <br/>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                         FEATURED PROJECTS                            ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
+<img src="./assets/divider-leaves.svg" width="100%"/>
 
-## 📡 Featured Projects
+---
 
-<table>
+## ⚔️ The Six Combat Stances — Skills of the Ghost
+
+*Each discipline is a blade. Each blade has its purpose.*
+
+<br/>
+
+<table border="0" width="100%">
 <tr>
-<td width="50%" valign="top">
+<td valign="top" width="50%">
 
-### 🟢 Spring Boot POS System
-> Full-stack POS, inventory, supplier-invoice and reporting platform.
+### 🪨 Stone Stance — Core Backend
+The foundation. Unyielding. Precise.
 
 <p>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" />
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-D4AF37?style=flat-square&logo=openjdk&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Spring_Boot-BC002D?style=flat-square&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-D4AF37?style=flat-square&logo=nodedotjs&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Express.js-BC002D?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/REST_APIs-D4AF37?style=flat-square&logoColor=1A1A1A"/>
 </p>
 
 </td>
-<td width="50%" valign="top">
+<td valign="top" width="50%">
 
-### 🟣 Rust Contact Management API
-> Layered backend in Rust using Axum, SeaORM and PostgreSQL.
+### 💧 Water Stance — Databases
+Shape and flow. Data finds its path.
 
 <p>
-<img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/Axum-000?style=flat-square&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-D4AF37?style=flat-square&logo=postgresql&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/MongoDB-BC002D?style=flat-square&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Data_Modeling-D4AF37?style=flat-square"/>
+<img src="https://img.shields.io/badge/Query_Design-BC002D?style=flat-square"/>
 </p>
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 
-### 🔵 Task Management API
-> Production-ready REST API with JWT auth, RBAC and full CRUD.
+### 🌬️ Wind Stance — Architecture & Code Flow
+Structure in motion. Systems that breathe.
 
 <p>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Express-000?style=flat-square&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Clean_Architecture-D4AF37?style=flat-square"/>
+<img src="https://img.shields.io/badge/Layered_Architecture-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/Repository_Pattern-D4AF37?style=flat-square"/>
+<img src="https://img.shields.io/badge/Service_Layer-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/API_Design-D4AF37?style=flat-square"/>
 </p>
 
 </td>
-<td width="50%" valign="top">
+<td valign="top">
 
-### 🟠 Java Bookstore API
-> RESTful bookstore service built on JAX-RS with JSON storage.
+### 👻 Ghost Tools — Security & Auth
+Invisible to attackers. Impossible to breach.
 
 <p>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/JAX--RS-007396?style=flat-square&logo=java&logoColor=white" />
-<img src="https://img.shields.io/badge/JSON-000?style=flat-square&logo=json&logoColor=white" />
+<img src="https://img.shields.io/badge/JWT-D4AF37?style=flat-square&logo=jsonwebtokens&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/OAuth2-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/RBAC-D4AF37?style=flat-square"/>
+<img src="https://img.shields.io/badge/Secure_API_Practices-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/Input_Validation-D4AF37?style=flat-square"/>
+</p>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🔧 Forge Tools — Development Workflow
+A craftsman's discipline. No shortcuts.
+
+<p>
+<img src="https://img.shields.io/badge/Git-D4AF37?style=flat-square&logo=git&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/GitHub-BC002D?style=flat-square&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-D4AF37?style=flat-square&logo=docker&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-BC002D?style=flat-square&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Postman-D4AF37?style=flat-square&logo=postman&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Jest-BC002D?style=flat-square&logo=jest&logoColor=white"/>
+</p>
+
+</td>
+<td valign="top">
+
+### 🦀 Iron Path — Rust & Systems
+The hardest road. The sharpest edge.
+
+<p>
+<img src="https://img.shields.io/badge/Rust-D4AF37?style=flat-square&logo=rust&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Axum-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/SeaORM-D4AF37?style=flat-square"/>
+<img src="https://img.shields.io/badge/CLI_Tools-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/Async_Backend-D4AF37?style=flat-square"/>
 </p>
 
 </td>
@@ -179,88 +176,241 @@ const chanithu: Developer = {
 
 <br/>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                          GITHUB METRICS                              ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
-
-## 📊 GitHub Metrics
-
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Senvidu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=6E57F7&text_color=C9D1D9&ring_color=FF6B9D" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Senvidu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9&langs_count=8" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Senvidu&theme=tokyonight&hide_border=true&background=0D1117&ring=6E57F7&fire=FF6B9D&currStreakLabel=00D9FF&sideLabels=C9D1D9&dates=8B949E" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Senvidu&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Senvidu&theme=tokyonight" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Senvidu&theme=tokyonight" />
-</p>
+<img src="./assets/divider-slash.svg" width="100%"/>
 
 <br/>
 
-## 🏆 Trophies
+## 📜 Current Tales — Active Quests
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Senvidu&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" />
-  </a>
-</p>
+*The battles being fought. The systems being forged.*
 
 <br/>
 
-## 📈 Contribution Graph
+<table border="0" width="100%" cellpadding="8">
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Senvidu&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=6E57F7&point=FF6B9D&area=true&area_color=6E57F7" />
+<tr>
+<td align="left" valign="top" width="50%"
+    style="background:#1A1A1A; border-left: 3px solid #BC002D; padding: 12px;">
+
+**⚔️ rcontact**
+`ACTIVE QUEST`
+
+> *A warrior's ledger, wrought in Rust.*
+
+CLI contact management system built with pure Rust. Local-first, fast, reliable. The Iron Path in practice.
+
+<p>
+<img src="https://img.shields.io/badge/Rust-D4AF37?style=flat-square&logo=rust&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/CLI-BC002D?style=flat-square"/>
 </p>
+
+</td>
+<td align="left" valign="top" width="50%"
+    style="background:#1A1A1A; border-left: 3px solid #D4AF37; padding: 12px;">
+
+**⚔️ Contact Management Service API**
+`ACTIVE QUEST`
+
+> *Steel-strong API, memory-safe by design.*
+
+Full backend REST API in Rust using Axum and SeaORM, backed by PostgreSQL. Async architecture, clean service layers, production mindset.
+
+<p>
+<img src="https://img.shields.io/badge/Rust-D4AF37?style=flat-square&logo=rust&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Axum-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/PostgreSQL-D4AF37?style=flat-square&logo=postgresql&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/SeaORM-BC002D?style=flat-square"/>
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td align="left" valign="top" width="50%"
+    style="background:#1A1A1A; border-left: 3px solid #D4AF37; padding: 12px;">
+
+**⚔️ Bookstore REST API**
+`COMPLETED TALE`
+
+> *Every endpoint, a well-placed strike.*
+
+JAX-RS Java backend implementing full CRUD for a bookstore system. Clean resource design, proper HTTP semantics, structured layers.
+
+<p>
+<img src="https://img.shields.io/badge/Java-D4AF37?style=flat-square&logo=openjdk&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/JAX--RS-BC002D?style=flat-square"/>
+<img src="https://img.shields.io/badge/REST_API-D4AF37?style=flat-square"/>
+</p>
+
+</td>
+<td align="left" valign="top" width="50%"
+    style="background:#1A1A1A; border-left: 3px solid #BC002D; padding: 12px;">
+
+**⚔️ Spring Boot POS / Inventory System**
+`IN PROGRESS`
+
+> *A merchant's empire, governed by clean code.*
+
+Full backend with Spring Boot — layered architecture (handlers → services → repositories → entities), database modeling, Spring Security integration.
+
+<p>
+<img src="https://img.shields.io/badge/Spring_Boot-BC002D?style=flat-square&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-D4AF37?style=flat-square&logo=postgresql&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Spring_Security-BC002D?style=flat-square"/>
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td align="left" valign="top" width="50%"
+    style="background:#1A1A1A; border-left: 3px solid #D4AF37; padding: 12px;">
+
+**⚔️ MERN Backend APIs**
+`COMPLETED TALE`
+
+> *The Node path. The Express blade.*
+
+RESTful backend APIs built with Node.js and Express.js, MongoDB for persistence, JWT authentication, modular route architecture.
+
+<p>
+<img src="https://img.shields.io/badge/Node.js-D4AF37?style=flat-square&logo=nodedotjs&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/Express.js-BC002D?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-D4AF37?style=flat-square&logo=mongodb&logoColor=1A1A1A"/>
+<img src="https://img.shields.io/badge/JWT-BC002D?style=flat-square"/>
+</p>
+
+</td>
+<td align="left" valign="top" width="50%" style="padding: 12px;">
+<!-- Spacer cell -->
+</td>
+</tr>
+
+</table>
 
 <br/>
 
-## 🐍 Watch the Snake Eat My Contributions
+<img src="./assets/divider-leaves.svg" width="100%"/>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Senvidu/Senvidu/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Senvidu/Senvidu/output/github-contribution-grid-snake.svg" />
-    <img alt="snake eating contributions" src="https://raw.githubusercontent.com/Senvidu/Senvidu/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
-</p>
+---
+
+## 🏆 Honor Stats — The Scroll of Deeds
+
+*Numbers do not define the warrior. But they do not lie either.*
 
 <br/>
 
-## 💭 Dev Quote of the Moment
+<div align="center">
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="quote" />
-</p>
+<img src="https://github-readme-stats.vercel.app/api?username=Senvidu&show_icons=true&theme=dark&bg_color=1A1A1A&title_color=D4AF37&text_color=F5F5F5&icon_color=BC002D&border_color=BC002D&border_radius=4&hide_border=false&count_private=true&include_all_commits=true" height="170" alt="GitHub Stats"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Senvidu&layout=compact&theme=dark&bg_color=1A1A1A&title_color=D4AF37&text_color=F5F5F5&border_color=BC002D&border_radius=4&langs_count=8" height="170" alt="Top Languages"/>
 
-<br/>
-
-<!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                          CONNECT WITH ME                             ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
-
-## 🌐 `./connect.sh`
-
-<p align="center">
-  <a href="https://chanithu-senvidu.netlify.app/">
-    <img src="https://img.shields.io/badge/-PORTFOLIO-000?style=for-the-badge&logo=vercel&logoColor=00D9FF&labelColor=0D1117" />
-  </a>
-  <a href="https://www.linkedin.com/in/chanithusenvidu">
-    <img src="https://img.shields.io/badge/-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/Senvidu">
-    <img src="https://img.shields.io/badge/-GITHUB-171515?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+</div>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B9D,50:00D9FF,100:6E57F7&height=120&section=footer&text=%3C%20coding%20my%20way%20through%20the%20universe%20%2F%3E&fontSize=18&fontColor=ffffff&fontAlignY=80&animation=twinkling" width="100%" alt="footer" />
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Senvidu&theme=dark&background=1A1A1A&ring=D4AF37&fire=BC002D&currStreakLabel=D4AF37&sideLabels=F5F5F5&currStreakNum=F5F5F5&sideNums=D4AF37&dates=8A8A8A&border=BC002D&border_radius=4" alt="GitHub Streak"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Senvidu&bg_color=1A1A1A&color=D4AF37&line=BC002D&point=D4AF37&area_color=BC002D&area=true&hide_border=false&border_color=BC002D&title_color=D4AF37&custom_title=⚔️%20The%20Ghost%27s%20Trail%20of%20Commits" alt="Activity Graph"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Senvidu&theme=darkhub&no-frame=false&no-bg=false&margin-w=6&column=7&title_color=D4AF37&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="Trophies"/>
+
+</div>
+
+<br/>
+
+<img src="./assets/divider-slash.svg" width="100%"/>
+
+<br/>
+
+## 🏮 Charms — The Ghost's Connections
+
+*Paths to find the warrior beyond the code.*
+
+<br/>
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/chanithusenvidu" target="_blank">
+  <img src="https://img.shields.io/badge/Charm_of_Connectivity-LinkedIn-D4AF37?style=for-the-badge&logo=linkedin&logoColor=1A1A1A&labelColor=1A1A1A"/>
+</a>
+&nbsp;
+<a href="https://chanithu-senvidu.netlify.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Charm_of_the_Portfolio-Portfolio-BC002D?style=for-the-badge&logo=firefox&logoColor=F5F5F5&labelColor=1A1A1A"/>
+</a>
+&nbsp;
+<a href="https://github.com/Senvidu" target="_blank">
+  <img src="https://img.shields.io/badge/Charm_of_the_Code_Shrine-GitHub-D4AF37?style=for-the-badge&logo=github&logoColor=1A1A1A&labelColor=1A1A1A"/>
+</a>
+
+</div>
+
+<br/>
+
+<img src="./assets/divider-leaves.svg" width="100%"/>
+
+---
+
+## 📋 For the Recruiter — Plainly Spoken
+
+<br/>
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                                                                     │
+│   I specialize in designing and building backend APIs with          │
+│   clean architecture, secure authentication, strong database        │
+│   modeling, and production-focused development practices.           │
+│                                                                     │
+│   Stack:  Java · Spring Boot · Node.js · Express.js                 │
+│           Rust · PostgreSQL · MongoDB                               │
+│                                                                     │
+│   Auth:   JWT · OAuth2 · RBAC                                       │
+│   Tools:  Docker · GitHub Actions · Postman · Jest                  │
+│   Style:  Layered architecture · Repository pattern · Clean code    │
+│                                                                     │
+│   Open to backend engineering roles and internships.                │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<br/>
+
+<img src="./assets/divider-slash.svg" width="100%"/>
+
+<br/>
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=Senvidu&style=for-the-badge&color=BC002D&label=WARRIORS+WHO+PASSED+THROUGH"/>
+
+<br/><br/>
+
+```
+  ── The Ghost leaves no trace. Only working systems. ──
+```
+
+<br/>
+
+*© Senvidu — Backend Architect · Code Samurai · Ghost of the API Layer*
+
+</div>

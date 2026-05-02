@@ -1,0 +1,266 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes windMove {
+        0%   { transform: translateX(-900px); opacity: 0; }
+        10%  { opacity: 0.6; }
+        90%  { opacity: 0.6; }
+        100% { transform: translateX(1800px); opacity: 0; }
+      }
+      @keyframes windMove2 {
+        0%   { transform: translateX(-900px); opacity: 0; }
+        10%  { opacity: 0.4; }
+        90%  { opacity: 0.4; }
+        100% { transform: translateX(1800px); opacity: 0; }
+      }
+      @keyframes titlePulse {
+        0%, 100% { opacity: 0.92; filter: drop-shadow(0 0 8px #D4AF3799); }
+        50%       { opacity: 1;    filter: drop-shadow(0 0 18px #D4AF37CC); }
+      }
+      @keyframes subtitleFade {
+        0%, 100% { opacity: 0.85; }
+        50%       { opacity: 1; }
+      }
+      @keyframes leafDrift1 {
+        0%   { transform: translate(0px, 0px)   rotate(0deg);   opacity: 0; }
+        5%   { opacity: 0.8; }
+        95%  { opacity: 0.8; }
+        100% { transform: translate(860px, 60px) rotate(540deg); opacity: 0; }
+      }
+      @keyframes leafDrift2 {
+        0%   { transform: translate(0px, 0px)    rotate(0deg);   opacity: 0; }
+        5%   { opacity: 0.6; }
+        95%  { opacity: 0.6; }
+        100% { transform: translate(820px, -40px) rotate(-360deg); opacity: 0; }
+      }
+      @keyframes leafDrift3 {
+        0%   { transform: translate(0px, 0px)   rotate(0deg);   opacity: 0; }
+        5%   { opacity: 0.7; }
+        95%  { opacity: 0.7; }
+        100% { transform: translate(880px, 80px) rotate(480deg); opacity: 0; }
+      }
+      @keyframes slashReveal {
+        0%   { stroke-dashoffset: 400; opacity: 0; }
+        20%  { opacity: 0.9; }
+        80%  { opacity: 0.9; }
+        100% { stroke-dashoffset: 0; opacity: 0; }
+      }
+      @keyframes cursorBlink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+      @keyframes gridFade {
+        0%, 100% { opacity: 0.04; }
+        50%       { opacity: 0.07; }
+      }
+
+      .wind1 { animation: windMove  6s linear infinite; }
+      .wind2 { animation: windMove  8s linear infinite 1.5s; }
+      .wind3 { animation: windMove  5s linear infinite 3s; }
+      .wind4 { animation: windMove2 9s linear infinite 0.8s; }
+      .wind5 { animation: windMove2 7s linear infinite 4s; }
+      .wind6 { animation: windMove  6.5s linear infinite 2.2s; }
+
+      .title    { animation: titlePulse   4s ease-in-out infinite; }
+      .subtitle { animation: subtitleFade 3s ease-in-out infinite 0.5s; }
+
+      .leaf1 { animation: leafDrift1 10s linear infinite; }
+      .leaf2 { animation: leafDrift2 13s linear infinite 3s; }
+      .leaf3 { animation: leafDrift3 11s linear infinite 6s; }
+      .leaf4 { animation: leafDrift1 14s linear infinite 1.5s; }
+      .leaf5 { animation: leafDrift2  9s linear infinite 7s; }
+
+      .slash { animation: slashReveal 5s ease-in-out infinite; stroke-dasharray: 400; }
+      .cursor { animation: cursorBlink 1s step-end infinite; }
+      .grid   { animation: gridFade 6s ease-in-out infinite; }
+    </style>
+
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0D0D0D"/>
+      <stop offset="50%"  stop-color="#1A1A1A"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+
+    <!-- Gold gradient for title -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#A07820"/>
+      <stop offset="30%"  stop-color="#D4AF37"/>
+      <stop offset="60%"  stop-color="#F0D060"/>
+      <stop offset="100%" stop-color="#C09830"/>
+    </linearGradient>
+
+    <!-- Crimson gradient -->
+    <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#8A0020"/>
+      <stop offset="50%"  stop-color="#BC002D"/>
+      <stop offset="100%" stop-color="#8A0020"/>
+    </linearGradient>
+
+    <!-- Gold glow filter -->
+    <filter id="goldGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle glow for subtitle -->
+    <filter id="redGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Clip to bounds -->
+    <clipPath id="bounds">
+      <rect width="900" height="280"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid pattern -->
+  <g class="grid" clip-path="url(#bounds)">
+    <line x1="150" y1="0" x2="150" y2="280" stroke="#D4AF37" stroke-width="0.3"/>
+    <line x1="300" y1="0" x2="300" y2="280" stroke="#D4AF37" stroke-width="0.3"/>
+    <line x1="450" y1="0" x2="450" y2="280" stroke="#D4AF37" stroke-width="0.3"/>
+    <line x1="600" y1="0" x2="600" y2="280" stroke="#D4AF37" stroke-width="0.3"/>
+    <line x1="750" y1="0" x2="750" y2="280" stroke="#D4AF37" stroke-width="0.3"/>
+    <line x1="0" y1="70"  x2="900" y2="70"  stroke="#D4AF37" stroke-width="0.3"/>
+    <line x1="0" y1="140" x2="900" y2="140" stroke="#D4AF37" stroke-width="0.3"/>
+    <line x1="0" y1="210" x2="900" y2="210" stroke="#D4AF37" stroke-width="0.3"/>
+  </g>
+
+  <!-- Wind streaks -->
+  <g clip-path="url(#bounds)">
+    <line class="wind1" x1="-200" y1="55"  x2="120"  y2="52"  stroke="#D4AF37" stroke-width="0.8" opacity="0"/>
+    <line class="wind2" x1="-180" y1="90"  x2="200"  y2="87"  stroke="#D4AF37" stroke-width="0.4" opacity="0"/>
+    <line class="wind3" x1="-220" y1="130" x2="80"   y2="128" stroke="#BC002D" stroke-width="0.6" opacity="0"/>
+    <line class="wind4" x1="-150" y1="170" x2="250"  y2="168" stroke="#D4AF37" stroke-width="0.3" opacity="0"/>
+    <line class="wind5" x1="-200" y1="200" x2="150"  y2="198" stroke="#D4AF37" stroke-width="0.5" opacity="0"/>
+    <line class="wind6" x1="-180" y1="230" x2="100"  y2="228" stroke="#BC002D" stroke-width="0.4" opacity="0"/>
+
+    <!-- Longer streaks for atmosphere -->
+    <line class="wind2" x1="-300" y1="45"  x2="400"  y2="42"  stroke="#D4AF37" stroke-width="0.3" opacity="0" style="animation-delay:2.5s"/>
+    <line class="wind4" x1="-300" y1="155" x2="350"  y2="153" stroke="#8A8A8A" stroke-width="0.3" opacity="0" style="animation-delay:5s"/>
+    <line class="wind1" x1="-350" y1="245" x2="300"  y2="243" stroke="#D4AF37" stroke-width="0.5" opacity="0" style="animation-delay:3.8s"/>
+  </g>
+
+  <!-- Katana slash accent (top-left decorative) -->
+  <g clip-path="url(#bounds)">
+    <line class="slash" x1="40" y1="20" x2="160" y2="110" stroke="#BC002D" stroke-width="1.2" fill="none" opacity="0"/>
+    <line class="slash" x1="45" y1="20" x2="165" y2="110" stroke="#D4AF37" stroke-width="0.4" fill="none" opacity="0" style="animation-delay:0.15s"/>
+  </g>
+  <!-- Katana slash accent (bottom-right) -->
+  <g clip-path="url(#bounds)">
+    <line class="slash" x1="740" y1="170" x2="880" y2="265" stroke="#BC002D" stroke-width="1.2" fill="none" opacity="0" style="animation-delay:2.5s"/>
+    <line class="slash" x1="745" y1="170" x2="885" y2="265" stroke="#D4AF37" stroke-width="0.4" fill="none" opacity="0" style="animation-delay:2.65s"/>
+  </g>
+
+  <!-- Ginkgo leaf shapes (fan-shaped) -->
+  <!-- Leaf 1 -->
+  <g class="leaf1" clip-path="url(#bounds)" transform="translate(10, 80)" opacity="0">
+    <path d="M0,0 Q-8,-14 -3,-20 Q0,-22 3,-20 Q8,-14 0,0Z" fill="#D4AF37" opacity="0.7"/>
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="#D4AF37" stroke-width="0.5"/>
+  </g>
+  <!-- Leaf 2 -->
+  <g class="leaf2" clip-path="url(#bounds)" transform="translate(30, 200)" opacity="0">
+    <path d="M0,0 Q-6,-11 -2,-16 Q0,-18 2,-16 Q6,-11 0,0Z" fill="#BC002D" opacity="0.6"/>
+    <line x1="0" y1="0" x2="0" y2="-16" stroke="#BC002D" stroke-width="0.4"/>
+  </g>
+  <!-- Leaf 3 -->
+  <g class="leaf3" clip-path="url(#bounds)" transform="translate(5, 140)" opacity="0">
+    <path d="M0,0 Q-7,-12 -2,-18 Q0,-20 2,-18 Q7,-12 0,0Z" fill="#D4AF37" opacity="0.5"/>
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#D4AF37" stroke-width="0.4"/>
+  </g>
+  <!-- Leaf 4 -->
+  <g class="leaf4" clip-path="url(#bounds)" transform="translate(20, 50)" opacity="0">
+    <path d="M0,0 Q-9,-15 -3,-22 Q0,-24 3,-22 Q9,-15 0,0Z" fill="#A07820" opacity="0.6"/>
+    <line x1="0" y1="0" x2="0" y2="-22" stroke="#A07820" stroke-width="0.5"/>
+  </g>
+  <!-- Leaf 5 -->
+  <g class="leaf5" clip-path="url(#bounds)" transform="translate(15, 250)" opacity="0">
+    <path d="M0,0 Q-5,-9 -2,-13 Q0,-15 2,-13 Q5,-9 0,0Z" fill="#BC002D" opacity="0.5"/>
+    <line x1="0" y1="0" x2="0" y2="-13" stroke="#BC002D" stroke-width="0.3"/>
+  </g>
+
+  <!-- Top border line (gold) -->
+  <line x1="60" y1="22" x2="840" y2="22" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/>
+  <!-- Bottom border line (gold) -->
+  <line x1="60" y1="258" x2="840" y2="258" stroke="#D4AF37" stroke-width="0.6" opacity="0.4"/>
+
+  <!-- Corner ornaments -->
+  <!-- Top-left -->
+  <g opacity="0.5">
+    <line x1="30" y1="10" x2="30" y2="40"  stroke="#D4AF37" stroke-width="1"/>
+    <line x1="30" y1="10" x2="70" y2="10"  stroke="#D4AF37" stroke-width="1"/>
+    <rect x="27" y="7" width="6" height="6" fill="#BC002D"/>
+  </g>
+  <!-- Top-right -->
+  <g opacity="0.5">
+    <line x1="870" y1="10" x2="870" y2="40"  stroke="#D4AF37" stroke-width="1"/>
+    <line x1="830" y1="10" x2="870" y2="10"  stroke="#D4AF37" stroke-width="1"/>
+    <rect x="867" y="7" width="6" height="6" fill="#BC002D"/>
+  </g>
+  <!-- Bottom-left -->
+  <g opacity="0.5">
+    <line x1="30" y1="270" x2="30" y2="240"  stroke="#D4AF37" stroke-width="1"/>
+    <line x1="30" y1="270" x2="70" y2="270"  stroke="#D4AF37" stroke-width="1"/>
+    <rect x="27" y="267" width="6" height="6" fill="#BC002D"/>
+  </g>
+  <!-- Bottom-right -->
+  <g opacity="0.5">
+    <line x1="870" y1="270" x2="870" y2="240"  stroke="#D4AF37" stroke-width="1"/>
+    <line x1="830" y1="270" x2="870" y2="270"  stroke="#D4AF37" stroke-width="1"/>
+    <rect x="867" y="267" width="6" height="6" fill="#BC002D"/>
+  </g>
+
+  <!-- Japanese kanji-style small decoration (abstract, original) -->
+  <text x="80" y="52" font-family="serif" font-size="26" fill="#BC002D" opacity="0.18" font-weight="bold">剣</text>
+  <text x="800" y="240" font-family="serif" font-size="26" fill="#D4AF37" opacity="0.12" font-weight="bold">道</text>
+
+  <!-- Main title -->
+  <text class="title" x="450" y="122" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="46" font-weight="bold" letter-spacing="6"
+        fill="url(#goldGrad)" filter="url(#goldGlow)">
+    THE LEGEND OF SENVIDU
+  </text>
+
+  <!-- Crimson rule under title -->
+  <line x1="180" y1="135" x2="720" y2="135" stroke="url(#crimsonGrad)" stroke-width="1.5" opacity="0.8"/>
+  <!-- Dot accents on rule -->
+  <circle cx="180" cy="135" r="2.5" fill="#BC002D" opacity="0.9"/>
+  <circle cx="720" cy="135" r="2.5" fill="#BC002D" opacity="0.9"/>
+  <circle cx="450" cy="135" r="3"   fill="#D4AF37" opacity="0.9"/>
+
+  <!-- Subtitle -->
+  <text class="subtitle" x="450" y="165" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="19" letter-spacing="4"
+        fill="url(#crimsonGrad)" filter="url(#redGlow)">
+    BACKEND API SPECIALIST
+  </text>
+
+  <!-- Tech stack line -->
+  <text x="450" y="198" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="12.5" letter-spacing="1.5" fill="#8A8A8A">
+    Java · Spring Boot · Node.js · Express.js · Rust · PostgreSQL · MongoDB
+  </text>
+
+  <!-- Tagline -->
+  <text x="450" y="228" text-anchor="middle"
+        font-family="Georgia, serif" font-size="11.5"
+        font-style="italic" fill="#5A5A5A" letter-spacing="1">
+    "Precision in every line. Silence in every system."
+  </text>
+
+  <!-- Cursor blink on tagline -->
+  <text class="cursor" x="680" y="228" font-family="monospace" font-size="12" fill="#BC002D">▋</text>
+</svg>

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" alt="The Legend of Senvidu — Ghost of the Backend" width="100%"/>
+<img src="./assets/banner.svg" alt="The Legend of Senvidu — Ghost of the Backend" width="100%"/>
 
 </div>
 
@@ -332,9 +332,9 @@ RESTful APIs with Node.js + Express.js + MongoDB. JWT authentication, modular ro
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Senvidu&show_icons=true&theme=dark&bg_color=0D0807&title_color=F0EBE0&text_color=C0A8A8&icon_color=CC0018&border_color=8B0010&border_radius=2&hide_border=false&count_private=true&include_all_commits=true" height="165"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Senvidu&layout=compact&theme=dark&bg_color=0D0807&title_color=F0EBE0&text_color=C0A8A8&border_color=8B0010&border_radius=2&langs_count=8" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Senvidu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" height="170"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Senvidu&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170"/>
 
 </div>
 
@@ -342,7 +342,7 @@ RESTful APIs with Node.js + Express.js + MongoDB. JWT authentication, modular ro
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=Senvidu&theme=dark&background=0D0807&ring=F0EBE0&fire=CC0018&currStreakLabel=F0EBE0&sideLabels=C0A8A8&currStreakNum=F0EBE0&sideNums=F0EBE0&dates=6A4040&border=8B0010&border_radius=2"/>
+<img src="https://streak-stats.demolab.com/?user=Senvidu&theme=tokyonight&hide_border=true"/>
 
 </div>
 
@@ -350,7 +350,7 @@ RESTful APIs with Node.js + Express.js + MongoDB. JWT authentication, modular ro
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Senvidu&bg_color=0D0807&color=F0EBE0&line=CC0018&point=F0EBE0&area_color=8B0010&area=true&hide_border=false&border_color=8B0010&title_color=F0EBE0&custom_title=The%20Ghost%27s%20Trail%20of%20Commits"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Senvidu&theme=tokyo-night&hide_border=true&custom_title=The%20Ghost%27s%20Trail%20of%20Commits"/>
 
 </div>
 
@@ -358,7 +358,7 @@ RESTful APIs with Node.js + Express.js + MongoDB. JWT authentication, modular ro
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Senvidu&theme=darkhub&no-frame=false&no-bg=false&margin-w=6&column=7"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Senvidu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7"/>
 
 </div>
 

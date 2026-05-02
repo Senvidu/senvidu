@@ -332,9 +332,9 @@ RESTful APIs with Node.js + Express.js + MongoDB. JWT authentication, modular ro
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Senvidu&show_icons=true&theme=dark&bg_color=0D0505&title_color=EDEAE3&text_color=C8A8A8&icon_color=BC0020&border_color=BC0020&border_radius=2&hide_border=false&count_private=true&include_all_commits=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Senvidu&show_icons=true&theme=dark&bg_color=0D0807&title_color=F0EBE0&text_color=C0A8A8&icon_color=CC0018&border_color=8B0010&border_radius=2&hide_border=false&count_private=true&include_all_commits=true" height="165"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Senvidu&layout=compact&theme=dark&bg_color=0D0505&title_color=EDEAE3&text_color=C8A8A8&border_color=BC0020&border_radius=2&langs_count=8" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Senvidu&layout=compact&theme=dark&bg_color=0D0807&title_color=F0EBE0&text_color=C0A8A8&border_color=8B0010&border_radius=2&langs_count=8" height="165"/>
 
 </div>
 
@@ -342,7 +342,7 @@ RESTful APIs with Node.js + Express.js + MongoDB. JWT authentication, modular ro
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Senvidu&theme=dark&background=0D0505&ring=EDEAE3&fire=BC0020&currStreakLabel=EDEAE3&sideLabels=C8A8A8&currStreakNum=EDEAE3&sideNums=EDEAE3&dates=6A4040&border=BC0020&border_radius=2"/>
+<img src="https://streak-stats.demolab.com/?user=Senvidu&theme=dark&background=0D0807&ring=F0EBE0&fire=CC0018&currStreakLabel=F0EBE0&sideLabels=C0A8A8&currStreakNum=F0EBE0&sideNums=F0EBE0&dates=6A4040&border=8B0010&border_radius=2"/>
 
 </div>
 
@@ -350,7 +350,7 @@ RESTful APIs with Node.js + Express.js + MongoDB. JWT authentication, modular ro
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Senvidu&bg_color=0D0505&color=EDEAE3&line=BC0020&point=EDEAE3&area_color=BC0020&area=true&hide_border=false&border_color=BC0020&title_color=EDEAE3&custom_title=⚔️%20The%20Ghost%27s%20Trail%20of%20Commits"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Senvidu&bg_color=0D0807&color=F0EBE0&line=CC0018&point=F0EBE0&area_color=8B0010&area=true&hide_border=false&border_color=8B0010&title_color=F0EBE0&custom_title=The%20Ghost%27s%20Trail%20of%20Commits"/>
 
 </div>
 

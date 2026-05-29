@@ -41,7 +41,7 @@ Currently a **2nd-year Computer Science undergraduate** and a practicing backend
 identity:
   name:        Senvidu
   role:        Backend API Specialist
-  status:      2nd Year CS Undergraduate · Backend Developer Intern
+  status:      final Year CS Undergraduate · Backend Developer Intern
   creed:       "Clean architecture. Secure systems. Silent excellence."
 
 focus:

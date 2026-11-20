@@ -1,0 +1,144 @@
+<svg width="1000" height="214" viewBox="0 0 1000 214" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">Delivery pipeline</title>
+<desc id="d">Commit, build and test with GitHub Actions and Cloud Build, scan with SonarQube and Dependency-Track, package to Artifact Registry, deploy with Argo CD and Terraform, operate on GKE.</desc>
+<defs>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif}
+.mono{font-family:'JetBrains Mono', 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+</style>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/>
+</linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#080D1A"/><stop offset="1" stop-color="#0F172A"/>
+</linearGradient>
+<filter id="glow" x="-300%" y="-300%" width="700%" height="700%">
+<feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<clipPath id="card"><rect width="1000" height="214" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1000" height="214" fill="url(#bg)"/>
+<text x="30" y="36" class="mono" font-size="12" letter-spacing="2.5" fill="#38BDF8">DELIVERY PIPELINE<tspan fill="#56657E" letter-spacing="0.5">   commit → production</tspan></text>
+
+<g opacity="0">
+<animate attributeName="opacity" values="1;0" keyTimes="0;0.7111" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="907.6" cy="32" r="4" fill="#FBBF24">
+<animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+</circle>
+<text x="970" y="36" text-anchor="end" class="mono" font-size="12" fill="#FBBF24" textLength="50.4" lengthAdjust="spacingAndGlyphs">running</text>
+</g>
+<g>
+<animate attributeName="opacity" values="0;1" keyTimes="0;0.7111" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="835.6" cy="32" r="4" fill="#34D399"/>
+<text x="970" y="36" text-anchor="end" class="mono" font-size="12" fill="#34D399" textLength="122.4" lengthAdjust="spacingAndGlyphs">all checks passed</text>
+</g>
+
+<rect x="30" y="58" width="140" height="104" rx="12" fill="#0D1424" stroke="#34D399" stroke-opacity="0.85" stroke-width="1.3"><animate attributeName="stroke" values="#1F2A44;#38BDF8;#34D399" keyTimes="0;0;0.1059" dur="9s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="44" y="83" class="mono" font-size="11" letter-spacing="1" fill="#56657E">01</text>
+<g opacity="0">
+<animate attributeName="opacity" values="0;1;0" keyTimes="0;0;0.1059" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="150" cy="78" r="7" stroke="#FBBF24" stroke-width="2" stroke-dasharray="26 18">
+<animateTransform attributeName="transform" type="rotate" values="0 150 78;360 150 78" dur="0.9s" repeatCount="indefinite"/>
+</circle>
+</g>
+<g>
+<animate attributeName="opacity" values="0;1" keyTimes="0;0.1059" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="150" cy="78" r="8" fill="#34D399" fill-opacity="0.15" stroke="#34D399" stroke-width="1.3"/>
+<path d="M146.4 78.2 L149 80.8 L153.8 75.4" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="44" y="113" class="sans" font-size="16" font-weight="700" fill="#E6EDF3">Commit</text>
+<text x="44" y="135" class="mono" font-size="11" fill="#8B9BB4">git push</text>
+<text x="44" y="151" class="mono" font-size="11" fill="#8B9BB4">pull request</text><path d="M177.0 105.0 L182.0 110.0 L177.0 115.0" stroke="#38BDF8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke" values="#56657E;#38BDF8" keyTimes="0;0.1059" dur="9s" calcMode="discrete" repeatCount="indefinite"/></path>
+<rect x="190" y="58" width="140" height="104" rx="12" fill="#0D1424" stroke="#34D399" stroke-opacity="0.85" stroke-width="1.3"><animate attributeName="stroke" values="#1F2A44;#38BDF8;#34D399" keyTimes="0;0.121;0.227" dur="9s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="204" y="83" class="mono" font-size="11" letter-spacing="1" fill="#56657E">02</text>
+<g opacity="0">
+<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.121;0.227" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="310" cy="78" r="7" stroke="#FBBF24" stroke-width="2" stroke-dasharray="26 18">
+<animateTransform attributeName="transform" type="rotate" values="0 310 78;360 310 78" dur="0.9s" repeatCount="indefinite"/>
+</circle>
+</g>
+<g>
+<animate attributeName="opacity" values="0;1" keyTimes="0;0.227" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="310" cy="78" r="8" fill="#34D399" fill-opacity="0.15" stroke="#34D399" stroke-width="1.3"/>
+<path d="M306.4 78.2 L309 80.8 L313.8 75.4" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="204" y="113" class="sans" font-size="16" font-weight="700" fill="#E6EDF3">Build &amp; Test</text>
+<text x="204" y="135" class="mono" font-size="11" fill="#8B9BB4">GitHub Actions</text>
+<text x="204" y="151" class="mono" font-size="11" fill="#8B9BB4">Cloud Build</text><path d="M337.0 105.0 L342.0 110.0 L337.0 115.0" stroke="#38BDF8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke" values="#56657E;#38BDF8" keyTimes="0;0.227" dur="9s" calcMode="discrete" repeatCount="indefinite"/></path>
+<rect x="350" y="58" width="140" height="104" rx="12" fill="#0D1424" stroke="#34D399" stroke-opacity="0.85" stroke-width="1.3"><animate attributeName="stroke" values="#1F2A44;#38BDF8;#34D399" keyTimes="0;0.2421;0.348" dur="9s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="364" y="83" class="mono" font-size="11" letter-spacing="1" fill="#56657E">03</text>
+<g opacity="0">
+<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2421;0.348" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="470" cy="78" r="7" stroke="#FBBF24" stroke-width="2" stroke-dasharray="26 18">
+<animateTransform attributeName="transform" type="rotate" values="0 470 78;360 470 78" dur="0.9s" repeatCount="indefinite"/>
+</circle>
+</g>
+<g>
+<animate attributeName="opacity" values="0;1" keyTimes="0;0.348" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="470" cy="78" r="8" fill="#34D399" fill-opacity="0.15" stroke="#34D399" stroke-width="1.3"/>
+<path d="M466.4 78.2 L469 80.8 L473.8 75.4" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="364" y="113" class="sans" font-size="16" font-weight="700" fill="#E6EDF3">Scan</text>
+<text x="364" y="135" class="mono" font-size="11" fill="#8B9BB4">SonarQube</text>
+<text x="364" y="151" class="mono" font-size="11" fill="#8B9BB4">Dependency-Track</text><path d="M497.0 105.0 L502.0 110.0 L497.0 115.0" stroke="#38BDF8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke" values="#56657E;#38BDF8" keyTimes="0;0.348" dur="9s" calcMode="discrete" repeatCount="indefinite"/></path>
+<rect x="510" y="58" width="140" height="104" rx="12" fill="#0D1424" stroke="#34D399" stroke-opacity="0.85" stroke-width="1.3"><animate attributeName="stroke" values="#1F2A44;#38BDF8;#34D399" keyTimes="0;0.3631;0.469" dur="9s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="524" y="83" class="mono" font-size="11" letter-spacing="1" fill="#56657E">04</text>
+<g opacity="0">
+<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3631;0.469" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="630" cy="78" r="7" stroke="#FBBF24" stroke-width="2" stroke-dasharray="26 18">
+<animateTransform attributeName="transform" type="rotate" values="0 630 78;360 630 78" dur="0.9s" repeatCount="indefinite"/>
+</circle>
+</g>
+<g>
+<animate attributeName="opacity" values="0;1" keyTimes="0;0.469" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="630" cy="78" r="8" fill="#34D399" fill-opacity="0.15" stroke="#34D399" stroke-width="1.3"/>
+<path d="M626.4 78.2 L629 80.8 L633.8 75.4" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="524" y="113" class="sans" font-size="16" font-weight="700" fill="#E6EDF3">Package</text>
+<text x="524" y="135" class="mono" font-size="11" fill="#8B9BB4">Docker</text>
+<text x="524" y="151" class="mono" font-size="11" fill="#8B9BB4">Artifact Registry</text><path d="M657.0 105.0 L662.0 110.0 L657.0 115.0" stroke="#38BDF8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke" values="#56657E;#38BDF8" keyTimes="0;0.469" dur="9s" calcMode="discrete" repeatCount="indefinite"/></path>
+<rect x="670" y="58" width="140" height="104" rx="12" fill="#0D1424" stroke="#34D399" stroke-opacity="0.85" stroke-width="1.3"><animate attributeName="stroke" values="#1F2A44;#38BDF8;#34D399" keyTimes="0;0.4842;0.5901" dur="9s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="684" y="83" class="mono" font-size="11" letter-spacing="1" fill="#56657E">05</text>
+<g opacity="0">
+<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4842;0.5901" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="790" cy="78" r="7" stroke="#FBBF24" stroke-width="2" stroke-dasharray="26 18">
+<animateTransform attributeName="transform" type="rotate" values="0 790 78;360 790 78" dur="0.9s" repeatCount="indefinite"/>
+</circle>
+</g>
+<g>
+<animate attributeName="opacity" values="0;1" keyTimes="0;0.5901" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="790" cy="78" r="8" fill="#34D399" fill-opacity="0.15" stroke="#34D399" stroke-width="1.3"/>
+<path d="M786.4 78.2 L789 80.8 L793.8 75.4" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="684" y="113" class="sans" font-size="16" font-weight="700" fill="#E6EDF3">Deploy</text>
+<text x="684" y="135" class="mono" font-size="11" fill="#8B9BB4">Argo CD · GitOps</text>
+<text x="684" y="151" class="mono" font-size="11" fill="#8B9BB4">Terraform</text><path d="M817.0 105.0 L822.0 110.0 L817.0 115.0" stroke="#38BDF8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke" values="#56657E;#38BDF8" keyTimes="0;0.5901" dur="9s" calcMode="discrete" repeatCount="indefinite"/></path>
+<rect x="830" y="58" width="140" height="104" rx="12" fill="#0D1424" stroke="#34D399" stroke-opacity="0.85" stroke-width="1.3"><animate attributeName="stroke" values="#1F2A44;#38BDF8;#34D399" keyTimes="0;0.6052;0.7111" dur="9s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="844" y="83" class="mono" font-size="11" letter-spacing="1" fill="#56657E">06</text>
+<g opacity="0">
+<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6052;0.7111" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="950" cy="78" r="7" stroke="#FBBF24" stroke-width="2" stroke-dasharray="26 18">
+<animateTransform attributeName="transform" type="rotate" values="0 950 78;360 950 78" dur="0.9s" repeatCount="indefinite"/>
+</circle>
+</g>
+<g>
+<animate attributeName="opacity" values="0;1" keyTimes="0;0.7111" dur="9s" calcMode="discrete" repeatCount="indefinite"/>
+<circle cx="950" cy="78" r="8" fill="#34D399" fill-opacity="0.15" stroke="#34D399" stroke-width="1.3"/>
+<path d="M946.4 78.2 L949 80.8 L953.8 75.4" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="844" y="113" class="sans" font-size="16" font-weight="700" fill="#E6EDF3">Operate</text>
+<text x="844" y="135" class="mono" font-size="11" fill="#8B9BB4">GKE</text>
+<text x="844" y="151" class="mono" font-size="11" fill="#8B9BB4">monitor · respond</text>
+
+<rect x="30" y="184" width="940" height="4" rx="2" fill="#1F2A44"/>
+<rect x="30" y="184" width="940" height="4" rx="2" fill="url(#accent)">
+<animate attributeName="width" values="0;940;940" keyTimes="0;0.7111;1" dur="9s" repeatCount="indefinite"/>
+</rect>
+<circle cx="970" cy="186" r="5" fill="#fff" filter="url(#glow)">
+<animate attributeName="cx" values="30;970;970" keyTimes="0;0.7111;1" dur="9s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.7111;0.7556;1" dur="9s" repeatCount="indefinite"/>
+</circle>
+</g>
+<rect x="0.5" y="0.5" width="999" height="213" rx="15.5" stroke="#1F2A44"/>
+</svg>

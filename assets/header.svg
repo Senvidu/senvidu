@@ -1,311 +1,87 @@
-<svg width="900" height="310" viewBox="0 0 900 310" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="300" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">Chanithu Senvidu</title>
+<desc id="d">Software Engineering, Platform Engineering and DevOps on Google Cloud.</desc>
 <defs>
 <style>
-  /* ── Leaf animations ─────────────────────────────────────── */
-  @keyframes ld1{0%{transform:translate(0,0)rotate(0deg);opacity:0}7%{opacity:.92}93%{opacity:.92}100%{transform:translate(970px,100px)rotate(800deg);opacity:0}}
-  @keyframes ld2{0%{transform:translate(0,0)rotate(22deg);opacity:0}7%{opacity:.78}93%{opacity:.78}100%{transform:translate(950px,-65px)rotate(-620deg);opacity:0}}
-  @keyframes ld3{0%{transform:translate(0,0)rotate(-14deg);opacity:0}7%{opacity:.88}93%{opacity:.88}100%{transform:translate(960px,120px)rotate(680deg);opacity:0}}
-  @keyframes ld4{0%{transform:translate(0,0)rotate(9deg);opacity:0}7%{opacity:.68}93%{opacity:.68}100%{transform:translate(940px,-45px)rotate(-560deg);opacity:0}}
-  @keyframes ld5{0%{transform:translate(0,0)rotate(-22deg);opacity:0}7%{opacity:.82}93%{opacity:.82}100%{transform:translate(965px,140px)rotate(740deg);opacity:0}}
-  @keyframes ld6{0%{transform:translate(0,0)rotate(38deg);opacity:0}7%{opacity:.72}93%{opacity:.72}100%{transform:translate(945px,55px)rotate(-680deg);opacity:0}}
-  @keyframes ld7{0%{transform:translate(0,0)rotate(-7deg);opacity:0}7%{opacity:.88}93%{opacity:.88}100%{transform:translate(955px,30px)rotate(860deg);opacity:0}}
-  @keyframes ld8{0%{transform:translate(0,0)rotate(17deg);opacity:0}7%{opacity:.62}93%{opacity:.62}100%{transform:translate(935px,-30px)rotate(-740deg);opacity:0}}
-  @keyframes ld9{0%{transform:translate(0,0)rotate(-32deg);opacity:0}7%{opacity:.9}93%{opacity:.9}100%{transform:translate(958px,160px)rotate(620deg);opacity:0}}
-  @keyframes ld10{0%{transform:translate(0,0)rotate(6deg);opacity:0}7%{opacity:.74}93%{opacity:.74}100%{transform:translate(948px,-80px)rotate(-500deg);opacity:0}}
-  @keyframes ld11{0%{transform:translate(0,0)rotate(-18deg);opacity:0}7%{opacity:.85}93%{opacity:.85}100%{transform:translate(962px,75px)rotate(760deg);opacity:0}}
-  @keyframes ld12{0%{transform:translate(0,0)rotate(28deg);opacity:0}7%{opacity:.7}93%{opacity:.7}100%{transform:translate(943px,-55px)rotate(-640deg);opacity:0}}
-
-  /* ── Wind streaks ────────────────────────────────────────── */
-  @keyframes wind{0%{transform:translateX(-950px);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(1900px);opacity:0}}
-
-  /* ── Title / text animations ────────────────────────────── */
-  @keyframes titleGlow{0%,100%{opacity:.95;filter:drop-shadow(0 0 8px rgba(240,230,210,.12))}50%{opacity:1;filter:drop-shadow(0 0 22px rgba(240,230,210,.28))}}
-  @keyframes subPulse{0%,100%{opacity:.82}50%{opacity:1}}
-  @keyframes monPulse{0%,100%{opacity:.1}50%{opacity:.22}}
-  @keyframes monRing{0%,100%{opacity:.18;stroke-dashoffset:0}50%{opacity:.38;stroke-dashoffset:20}}
-  @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
-  @keyframes cloudDrift{0%,100%{opacity:.06}50%{opacity:.11}}
-
-  /* ── Class assignments ───────────────────────────────────── */
-  .l1{animation:ld1 10s linear infinite}
-  .l2{animation:ld2 13.5s linear infinite 2.8s}
-  .l3{animation:ld3 8.8s linear infinite 5.2s}
-  .l4{animation:ld4 15.5s linear infinite 1.2s}
-  .l5{animation:ld5 11.2s linear infinite 7.5s}
-  .l6{animation:ld6 12.8s linear infinite 3.8s}
-  .l7{animation:ld7 9.5s linear infinite 6.3s}
-  .l8{animation:ld8 14.8s linear infinite 0.7s}
-  .l9{animation:ld9 10.8s linear infinite 8.5s}
-  .l10{animation:ld10 13.8s linear infinite 4.3s}
-  .l11{animation:ld11 11.5s linear infinite 9.2s}
-  .l12{animation:ld12 12.2s linear infinite 2.1s}
-
-  .w1{animation:wind 5.8s linear infinite}
-  .w2{animation:wind 8.5s linear infinite 2s}
-  .w3{animation:wind 4.2s linear infinite 3.5s}
-  .w4{animation:wind 7.5s linear infinite 0.8s}
-  .w5{animation:wind 6.5s linear infinite 5.5s}
-  .w6{animation:wind 9.2s linear infinite 1.5s}
-
-  .title{animation:titleGlow 5s ease-in-out infinite}
-  .sub{animation:subPulse 3.8s ease-in-out infinite}
-  .monF{animation:monPulse 6.5s ease-in-out infinite}
-  .monR{stroke-dasharray:40;animation:monRing 4.5s ease-in-out infinite}
-  .cur{animation:blink 1.15s step-end infinite}
-  .cloud{animation:cloudDrift 7s ease-in-out infinite}
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif}
+.mono{font-family:'JetBrains Mono', 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.blink{animation:blink 1.05s steps(1) infinite}
+@keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
 </style>
-
-<!-- ── GRADIENTS & FILTERS ─────────────────────────────────── -->
-
-<!-- KEY FIX: charcoal storm-sky background (dark gray, not dark red) -->
-<radialGradient id="bg" cx="50%" cy="38%" r="78%">
-  <stop offset="0%"   stop-color="#1E1C1A"/>
-  <stop offset="35%"  stop-color="#141210"/>
-  <stop offset="70%"  stop-color="#0C0A09"/>
-  <stop offset="100%" stop-color="#060504"/>
-</radialGradient>
-
-<!-- Subtle warmer bloom area just behind the title -->
-<radialGradient id="titleBloom" cx="50%" cy="50%" r="50%">
-  <stop offset="0%"   stop-color="#2A1A10" stop-opacity="0.55"/>
-  <stop offset="60%"  stop-color="#1A1008" stop-opacity="0.2"/>
-  <stop offset="100%" stop-color="#0C0806" stop-opacity="0"/>
-</radialGradient>
-
-<!-- Mon (crest) glow — red -->
-<radialGradient id="monGlow" cx="50%" cy="50%" r="50%">
-  <stop offset="0%"   stop-color="#C00018" stop-opacity="0.32"/>
-  <stop offset="70%"  stop-color="#C00018" stop-opacity="0.08"/>
-  <stop offset="100%" stop-color="#C00018" stop-opacity="0"/>
-</radialGradient>
-
-<!-- Storm cloud patches (lighter gray blobs) -->
-<radialGradient id="cloud1" cx="50%" cy="50%" r="50%">
-  <stop offset="0%"   stop-color="#2E2C2A" stop-opacity="1"/>
-  <stop offset="100%" stop-color="#2E2C2A" stop-opacity="0"/>
-</radialGradient>
-<radialGradient id="cloud2" cx="50%" cy="50%" r="50%">
-  <stop offset="0%"   stop-color="#252320" stop-opacity="1"/>
-  <stop offset="100%" stop-color="#252320" stop-opacity="0"/>
-</radialGradient>
-
-<!-- Crimson rule gradient -->
-<linearGradient id="rule" x1="0%" y1="0%" x2="100%" y2="0%">
-  <stop offset="0%"   stop-color="#060504" stop-opacity="0"/>
-  <stop offset="15%"  stop-color="#8B0010"/>
-  <stop offset="50%"  stop-color="#CC0018"/>
-  <stop offset="85%"  stop-color="#8B0010"/>
-  <stop offset="100%" stop-color="#060504" stop-opacity="0"/>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#080D1A"/><stop offset="1" stop-color="#0F172A"/>
 </linearGradient>
-
-<!-- Wind streak — silver/gray like storm wind -->
-<linearGradient id="wg" x1="0%" y1="0%" x2="100%" y2="0%">
-  <stop offset="0%"   stop-color="#888880" stop-opacity="0"/>
-  <stop offset="25%"  stop-color="#888880" stop-opacity="0.45"/>
-  <stop offset="75%"  stop-color="#888880" stop-opacity="0.45"/>
-  <stop offset="100%" stop-color="#888880" stop-opacity="0"/>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/>
 </linearGradient>
-<linearGradient id="wgr" x1="0%" y1="0%" x2="100%" y2="0%">
-  <stop offset="0%"   stop-color="#CC0018" stop-opacity="0"/>
-  <stop offset="25%"  stop-color="#CC0018" stop-opacity="0.35"/>
-  <stop offset="75%"  stop-color="#CC0018" stop-opacity="0.35"/>
-  <stop offset="100%" stop-color="#CC0018" stop-opacity="0"/>
+<linearGradient id="name" gradientUnits="userSpaceOnUse" x1="54" y1="0" x2="600" y2="0">
+<stop offset="0" stop-color="#E6EDF3"/><stop offset="0.42" stop-color="#E6EDF3"/>
+<stop offset="0.5" stop-color="#BAE6FD"/><stop offset="0.58" stop-color="#E6EDF3"/>
+<stop offset="1" stop-color="#E6EDF3"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-700 0;700 0;700 0" keyTimes="0;0.55;1" dur="7s" repeatCount="indefinite"/>
 </linearGradient>
-
-<!-- Filters -->
-<filter id="titleF" x="-6%" y="-35%" width="112%" height="170%">
-  <feGaussianBlur stdDeviation="3.5" result="b"/>
-  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+<radialGradient id="glowC" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#38BDF8" stop-opacity="0.22"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glowV" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#A78BFA" stop-opacity="0.16"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+</radialGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+<circle cx="1.5" cy="1.5" r="1.1" fill="#1F2A44"/>
+</pattern>
+<filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+<feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
 </filter>
-<filter id="subF" x="-8%" y="-50%" width="116%" height="200%">
-  <feGaussianBlur stdDeviation="2.5" result="b"/>
-  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
-<filter id="monF" x="-50%" y="-50%" width="200%" height="200%">
-  <feGaussianBlur stdDeviation="8" result="b"/>
-  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
-
-<clipPath id="clip"><rect width="900" height="310"/></clipPath>
+<clipPath id="card"><rect width="1000" height="300" rx="18"/></clipPath>
+<clipPath id="tp0"><rect x="82" y="174" width="252" height="32"><animate attributeName="width" values="0;12.6;25.2;37.8;50.4;63;75.6;88.2;100.8;113.4;126;138.6;151.2;163.8;176.4;189;201.6;214.2;226.8;239.4;252;239.4;226.8;214.2;201.6;189;176.4;163.8;151.2;138.6;126;113.4;100.8;88.2;75.6;63;50.4;37.8;25.2;12.6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" keyTimes="0;0.0172;0.0219;0.0266;0.0312;0.0359;0.0406;0.0453;0.05;0.0547;0.0594;0.0641;0.0688;0.0734;0.0781;0.0828;0.0875;0.0922;0.0969;0.1016;0.1062;0.2064;0.2078;0.2092;0.2106;0.212;0.2134;0.2149;0.2162;0.2176;0.2191;0.2204;0.2219;0.2233;0.2247;0.2261;0.2275;0.2289;0.2303;0.2317;0.2331;0.2672;0.2719;0.2766;0.2812;0.2859;0.2906;0.2953;0.3;0.3047;0.3094;0.3141;0.3187;0.3234;0.3281;0.3328;0.3375;0.3422;0.3469;0.3516;0.3563;0.4564;0.4578;0.4592;0.4606;0.462;0.4634;0.4648;0.4662;0.4676;0.4691;0.4704;0.4719;0.4733;0.4747;0.4761;0.4775;0.4789;0.4803;0.4817;0.4831;0.5172;0.5219;0.5266;0.5312;0.5359;0.5406;0.5453;0.55;0.5547;0.5594;0.5641;0.5687;0.5734;0.5781;0.5828;0.5875;0.5922;0.5969;0.6016;0.6062;0.6109;0.6156;0.7063;0.7076;0.7088;0.7101;0.7114;0.7127;0.7139;0.7153;0.7165;0.7178;0.7191;0.7203;0.7216;0.7229;0.7242;0.7254;0.7268;0.728;0.7293;0.7306;0.7319;0.7331;0.7661;0.7696;0.7731;0.7767;0.7802;0.7837;0.7873;0.7908;0.7944;0.7979;0.8014;0.805;0.8086;0.8121;0.8156;0.8192;0.8227;0.8263;0.8298;0.8333;0.8369;0.8404;0.8439;0.8475;0.8511;0.8546;0.8581;0.8617;0.8652;0.8688;0.9559;0.9569;0.9578;0.9587;0.9597;0.9606;0.9616;0.9625;0.9634;0.9644;0.9653;0.9663;0.9672;0.9681;0.9691;0.97;0.9709;0.9719;0.9728;0.9738;0.9747;0.9756;0.9766;0.9775;0.9784;0.9794;0.9803;0.9812;0.9822;0.9831" dur="16s" calcMode="discrete" repeatCount="indefinite"/></rect></clipPath><clipPath id="tp1"><rect x="82" y="174" width="0" height="32"><animate attributeName="width" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12.6;25.2;37.8;50.4;63;75.6;88.2;100.8;113.4;126;138.6;151.2;163.8;176.4;189;201.6;214.2;226.8;239.4;252;239.4;226.8;214.2;201.6;189;176.4;163.8;151.2;138.6;126;113.4;100.8;88.2;75.6;63;50.4;37.8;25.2;12.6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" keyTimes="0;0.0172;0.0219;0.0266;0.0312;0.0359;0.0406;0.0453;0.05;0.0547;0.0594;0.0641;0.0688;0.0734;0.0781;0.0828;0.0875;0.0922;0.0969;0.1016;0.1062;0.2064;0.2078;0.2092;0.2106;0.212;0.2134;0.2149;0.2162;0.2176;0.2191;0.2204;0.2219;0.2233;0.2247;0.2261;0.2275;0.2289;0.2303;0.2317;0.2331;0.2672;0.2719;0.2766;0.2812;0.2859;0.2906;0.2953;0.3;0.3047;0.3094;0.3141;0.3187;0.3234;0.3281;0.3328;0.3375;0.3422;0.3469;0.3516;0.3563;0.4564;0.4578;0.4592;0.4606;0.462;0.4634;0.4648;0.4662;0.4676;0.4691;0.4704;0.4719;0.4733;0.4747;0.4761;0.4775;0.4789;0.4803;0.4817;0.4831;0.5172;0.5219;0.5266;0.5312;0.5359;0.5406;0.5453;0.55;0.5547;0.5594;0.5641;0.5687;0.5734;0.5781;0.5828;0.5875;0.5922;0.5969;0.6016;0.6062;0.6109;0.6156;0.7063;0.7076;0.7088;0.7101;0.7114;0.7127;0.7139;0.7153;0.7165;0.7178;0.7191;0.7203;0.7216;0.7229;0.7242;0.7254;0.7268;0.728;0.7293;0.7306;0.7319;0.7331;0.7661;0.7696;0.7731;0.7767;0.7802;0.7837;0.7873;0.7908;0.7944;0.7979;0.8014;0.805;0.8086;0.8121;0.8156;0.8192;0.8227;0.8263;0.8298;0.8333;0.8369;0.8404;0.8439;0.8475;0.8511;0.8546;0.8581;0.8617;0.8652;0.8688;0.9559;0.9569;0.9578;0.9587;0.9597;0.9606;0.9616;0.9625;0.9634;0.9644;0.9653;0.9663;0.9672;0.9681;0.9691;0.97;0.9709;0.9719;0.9728;0.9738;0.9747;0.9756;0.9766;0.9775;0.9784;0.9794;0.9803;0.9812;0.9822;0.9831" dur="16s" calcMode="discrete" repeatCount="indefinite"/></rect></clipPath><clipPath id="tp2"><rect x="82" y="174" width="0" height="32"><animate attributeName="width" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12.6;25.2;37.8;50.4;63;75.6;88.2;100.8;113.4;126;138.6;151.2;163.8;176.4;189;201.6;214.2;226.8;239.4;252;264.6;277.2;264.6;252;239.4;226.8;214.2;201.6;189;176.4;163.8;151.2;138.6;126;113.4;100.8;88.2;75.6;63;50.4;37.8;25.2;12.6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" keyTimes="0;0.0172;0.0219;0.0266;0.0312;0.0359;0.0406;0.0453;0.05;0.0547;0.0594;0.0641;0.0688;0.0734;0.0781;0.0828;0.0875;0.0922;0.0969;0.1016;0.1062;0.2064;0.2078;0.2092;0.2106;0.212;0.2134;0.2149;0.2162;0.2176;0.2191;0.2204;0.2219;0.2233;0.2247;0.2261;0.2275;0.2289;0.2303;0.2317;0.2331;0.2672;0.2719;0.2766;0.2812;0.2859;0.2906;0.2953;0.3;0.3047;0.3094;0.3141;0.3187;0.3234;0.3281;0.3328;0.3375;0.3422;0.3469;0.3516;0.3563;0.4564;0.4578;0.4592;0.4606;0.462;0.4634;0.4648;0.4662;0.4676;0.4691;0.4704;0.4719;0.4733;0.4747;0.4761;0.4775;0.4789;0.4803;0.4817;0.4831;0.5172;0.5219;0.5266;0.5312;0.5359;0.5406;0.5453;0.55;0.5547;0.5594;0.5641;0.5687;0.5734;0.5781;0.5828;0.5875;0.5922;0.5969;0.6016;0.6062;0.6109;0.6156;0.7063;0.7076;0.7088;0.7101;0.7114;0.7127;0.7139;0.7153;0.7165;0.7178;0.7191;0.7203;0.7216;0.7229;0.7242;0.7254;0.7268;0.728;0.7293;0.7306;0.7319;0.7331;0.7661;0.7696;0.7731;0.7767;0.7802;0.7837;0.7873;0.7908;0.7944;0.7979;0.8014;0.805;0.8086;0.8121;0.8156;0.8192;0.8227;0.8263;0.8298;0.8333;0.8369;0.8404;0.8439;0.8475;0.8511;0.8546;0.8581;0.8617;0.8652;0.8688;0.9559;0.9569;0.9578;0.9587;0.9597;0.9606;0.9616;0.9625;0.9634;0.9644;0.9653;0.9663;0.9672;0.9681;0.9691;0.97;0.9709;0.9719;0.9728;0.9738;0.9747;0.9756;0.9766;0.9775;0.9784;0.9794;0.9803;0.9812;0.9822;0.9831" dur="16s" calcMode="discrete" repeatCount="indefinite"/></rect></clipPath><clipPath id="tp3"><rect x="82" y="174" width="0" height="32"><animate attributeName="width" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12.6;25.2;37.8;50.4;63;75.6;88.2;100.8;113.4;126;138.6;151.2;163.8;176.4;189;201.6;214.2;226.8;239.4;252;264.6;277.2;289.8;302.4;315;327.6;340.2;352.8;365.4;378;365.4;352.8;340.2;327.6;315;302.4;289.8;277.2;264.6;252;239.4;226.8;214.2;201.6;189;176.4;163.8;151.2;138.6;126;113.4;100.8;88.2;75.6;63;50.4;37.8;25.2;12.6;0" keyTimes="0;0.0172;0.0219;0.0266;0.0312;0.0359;0.0406;0.0453;0.05;0.0547;0.0594;0.0641;0.0688;0.0734;0.0781;0.0828;0.0875;0.0922;0.0969;0.1016;0.1062;0.2064;0.2078;0.2092;0.2106;0.212;0.2134;0.2149;0.2162;0.2176;0.2191;0.2204;0.2219;0.2233;0.2247;0.2261;0.2275;0.2289;0.2303;0.2317;0.2331;0.2672;0.2719;0.2766;0.2812;0.2859;0.2906;0.2953;0.3;0.3047;0.3094;0.3141;0.3187;0.3234;0.3281;0.3328;0.3375;0.3422;0.3469;0.3516;0.3563;0.4564;0.4578;0.4592;0.4606;0.462;0.4634;0.4648;0.4662;0.4676;0.4691;0.4704;0.4719;0.4733;0.4747;0.4761;0.4775;0.4789;0.4803;0.4817;0.4831;0.5172;0.5219;0.5266;0.5312;0.5359;0.5406;0.5453;0.55;0.5547;0.5594;0.5641;0.5687;0.5734;0.5781;0.5828;0.5875;0.5922;0.5969;0.6016;0.6062;0.6109;0.6156;0.7063;0.7076;0.7088;0.7101;0.7114;0.7127;0.7139;0.7153;0.7165;0.7178;0.7191;0.7203;0.7216;0.7229;0.7242;0.7254;0.7268;0.728;0.7293;0.7306;0.7319;0.7331;0.7661;0.7696;0.7731;0.7767;0.7802;0.7837;0.7873;0.7908;0.7944;0.7979;0.8014;0.805;0.8086;0.8121;0.8156;0.8192;0.8227;0.8263;0.8298;0.8333;0.8369;0.8404;0.8439;0.8475;0.8511;0.8546;0.8581;0.8617;0.8652;0.8688;0.9559;0.9569;0.9578;0.9587;0.9597;0.9606;0.9616;0.9625;0.9634;0.9644;0.9653;0.9663;0.9672;0.9681;0.9691;0.97;0.9709;0.9719;0.9728;0.9738;0.9747;0.9756;0.9766;0.9775;0.9784;0.9794;0.9803;0.9812;0.9822;0.9831" dur="16s" calcMode="discrete" repeatCount="indefinite"/></rect></clipPath>
 </defs>
 
-<!-- ══ BACKGROUND ═══════════════════════════════════════════ -->
-<rect width="900" height="310" fill="url(#bg)"/>
+<g clip-path="url(#card)">
+<rect width="1000" height="300" fill="url(#bg)"/>
+<rect width="1000" height="300" fill="url(#dots)" opacity="0.55"/>
+<ellipse cx="120" cy="40" rx="320" ry="200" fill="url(#glowV)"/>
+<ellipse cx="790" cy="150" rx="250" ry="200" fill="url(#glowC)">
+<animate attributeName="opacity" values="0.7;1;0.7" dur="5s" repeatCount="indefinite"/>
+</ellipse>
+<rect x="0" y="0" width="1000" height="3" fill="url(#accent)"/>
 
-<!-- Storm cloud texture blobs -->
-<ellipse class="cloud" cx="200"  cy="80"  rx="240" ry="90"  fill="url(#cloud1)" opacity="0.08"/>
-<ellipse class="cloud" cx="720"  cy="200" rx="200" ry="80"  fill="url(#cloud2)" opacity="0.07" style="animation-delay:3s"/>
-<ellipse class="cloud" cx="450"  cy="40"  rx="300" ry="60"  fill="url(#cloud1)" opacity="0.05" style="animation-delay:1.5s"/>
-<ellipse class="cloud" cx="150"  cy="260" rx="180" ry="55"  fill="url(#cloud2)" opacity="0.06" style="animation-delay:5s"/>
-<ellipse class="cloud" cx="780"  cy="60"  rx="160" ry="50"  fill="url(#cloud1)" opacity="0.07" style="animation-delay:2.5s"/>
+<!-- intro -->
+<text x="57" y="92" class="mono" font-size="13" letter-spacing="3" fill="#38BDF8">HELLO, WORLD — I'M</text>
+<text x="54" y="150" class="sans" font-size="52" font-weight="700" letter-spacing="-0.5" fill="url(#name)">Chanithu Senvidu</text>
+<text x="56" y="198" class="mono" font-size="21" font-weight="700" fill="#A78BFA">&gt;</text>
+<text clip-path="url(#tp0)" x="84" y="198" class="mono" font-size="21" fill="#E6EDF3" textLength="252" lengthAdjust="spacingAndGlyphs">Software Engineering</text><text clip-path="url(#tp1)" x="84" y="198" class="mono" font-size="21" fill="#E6EDF3" textLength="252" lengthAdjust="spacingAndGlyphs">Platform Engineering</text><text clip-path="url(#tp2)" x="84" y="198" class="mono" font-size="21" fill="#E6EDF3" textLength="277.2" lengthAdjust="spacingAndGlyphs">DevOps on Google Cloud</text><text clip-path="url(#tp3)" x="84" y="198" class="mono" font-size="21" fill="#E6EDF3" textLength="378" lengthAdjust="spacingAndGlyphs">Kubernetes · Terraform · CI/CD</text>
+<rect class="blink" x="86" y="180" width="10" height="23" rx="1.5" fill="#38BDF8">
+<animate attributeName="x" values="86;98.6;111.2;123.8;136.4;149;161.6;174.2;186.8;199.4;212;224.6;237.2;249.8;262.4;275;287.6;300.2;312.8;325.4;338;325.4;312.8;300.2;287.6;275;262.4;249.8;237.2;224.6;212;199.4;186.8;174.2;161.6;149;136.4;123.8;111.2;98.6;86;98.6;111.2;123.8;136.4;149;161.6;174.2;186.8;199.4;212;224.6;237.2;249.8;262.4;275;287.6;300.2;312.8;325.4;338;325.4;312.8;300.2;287.6;275;262.4;249.8;237.2;224.6;212;199.4;186.8;174.2;161.6;149;136.4;123.8;111.2;98.6;86;98.6;111.2;123.8;136.4;149;161.6;174.2;186.8;199.4;212;224.6;237.2;249.8;262.4;275;287.6;300.2;312.8;325.4;338;350.6;363.2;350.6;338;325.4;312.8;300.2;287.6;275;262.4;249.8;237.2;224.6;212;199.4;186.8;174.2;161.6;149;136.4;123.8;111.2;98.6;86;98.6;111.2;123.8;136.4;149;161.6;174.2;186.8;199.4;212;224.6;237.2;249.8;262.4;275;287.6;300.2;312.8;325.4;338;350.6;363.2;375.8;388.4;401;413.6;426.2;438.8;451.4;464;451.4;438.8;426.2;413.6;401;388.4;375.8;363.2;350.6;338;325.4;312.8;300.2;287.6;275;262.4;249.8;237.2;224.6;212;199.4;186.8;174.2;161.6;149;136.4;123.8;111.2;98.6;86" keyTimes="0;0.0172;0.0219;0.0266;0.0312;0.0359;0.0406;0.0453;0.05;0.0547;0.0594;0.0641;0.0688;0.0734;0.0781;0.0828;0.0875;0.0922;0.0969;0.1016;0.1062;0.2064;0.2078;0.2092;0.2106;0.212;0.2134;0.2149;0.2162;0.2176;0.2191;0.2204;0.2219;0.2233;0.2247;0.2261;0.2275;0.2289;0.2303;0.2317;0.2331;0.2672;0.2719;0.2766;0.2812;0.2859;0.2906;0.2953;0.3;0.3047;0.3094;0.3141;0.3187;0.3234;0.3281;0.3328;0.3375;0.3422;0.3469;0.3516;0.3563;0.4564;0.4578;0.4592;0.4606;0.462;0.4634;0.4648;0.4662;0.4676;0.4691;0.4704;0.4719;0.4733;0.4747;0.4761;0.4775;0.4789;0.4803;0.4817;0.4831;0.5172;0.5219;0.5266;0.5312;0.5359;0.5406;0.5453;0.55;0.5547;0.5594;0.5641;0.5687;0.5734;0.5781;0.5828;0.5875;0.5922;0.5969;0.6016;0.6062;0.6109;0.6156;0.7063;0.7076;0.7088;0.7101;0.7114;0.7127;0.7139;0.7153;0.7165;0.7178;0.7191;0.7203;0.7216;0.7229;0.7242;0.7254;0.7268;0.728;0.7293;0.7306;0.7319;0.7331;0.7661;0.7696;0.7731;0.7767;0.7802;0.7837;0.7873;0.7908;0.7944;0.7979;0.8014;0.805;0.8086;0.8121;0.8156;0.8192;0.8227;0.8263;0.8298;0.8333;0.8369;0.8404;0.8439;0.8475;0.8511;0.8546;0.8581;0.8617;0.8652;0.8688;0.9559;0.9569;0.9578;0.9587;0.9597;0.9606;0.9616;0.9625;0.9634;0.9644;0.9653;0.9663;0.9672;0.9681;0.9691;0.97;0.9709;0.9719;0.9728;0.9738;0.9747;0.9756;0.9766;0.9775;0.9784;0.9794;0.9803;0.9812;0.9822;0.9831" dur="16s" calcMode="discrete" repeatCount="indefinite"/>
+</rect>
 
-<!-- Warm bloom behind title -->
-<ellipse cx="450" cy="152" rx="350" ry="120" fill="url(#titleBloom)"/>
+<!-- pills -->
+<rect x="56" y="230" width="231.2" height="30" rx="15" fill="#0F172A" stroke="#1F2A44"/>
+<circle cx="74" cy="245" r="4" fill="#34D399"/>
+<circle cx="74" cy="245" r="4" fill="none" stroke="#34D399" stroke-width="1.5">
+<animate attributeName="r" values="4;10" dur="2s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/>
+</circle>
+<text x="86" y="250" class="mono" font-size="13" fill="#E6EDF3" textLength="187.2" lengthAdjust="spacingAndGlyphs">building on Google Cloud</text>
+<rect x="297.2" y="230" width="184.4" height="30" rx="15" fill="#0F172A" stroke="#1F2A44"/>
+<path transform="translate(310.2 237)" d="M5 0C2.24 0 0 2.2 0 4.93 0 8.6 5 14 5 14s5-5.4 5-9.07C10 2.2 7.76 0 5 0Zm0 6.7a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6Z" fill="#A78BFA"/>
+<text x="327.2" y="250" class="mono" font-size="13" fill="#E6EDF3" textLength="140.4" lengthAdjust="spacingAndGlyphs">Colombo, Sri Lanka</text>
 
-<!-- ══ MON CIRCLE (atmospheric crest) ══════════════════════ -->
-<circle class="monF" cx="450" cy="152" r="150" fill="url(#monGlow)" filter="url(#monF)"/>
-<!-- Mon rings -->
-<circle class="monR" cx="450" cy="152" r="132" fill="none" stroke="#AA0014" stroke-width="0.9" opacity="0.3"/>
-<circle cx="450" cy="152" r="108" fill="none" stroke="#880010" stroke-width="0.5" opacity="0.15"/>
-<!-- Mon internal lines -->
-<line x1="318" y1="152" x2="582" y2="152" stroke="#AA0014" stroke-width="0.5" opacity="0.14"/>
-<line x1="450" y1="20"  x2="450" y2="284" stroke="#AA0014" stroke-width="0.5" opacity="0.14"/>
-<!-- Mon center diamond -->
-<polygon points="450,124 466,152 450,180 434,152" fill="none" stroke="#CC0018" stroke-width="0.8" opacity="0.28"/>
-<polygon points="450,135 460,152 450,169 440,152" fill="#CC0018" opacity="0.15"/>
-
-<!-- ══ WIND STREAKS (silver-gray, like storm) ══════════════ -->
-<g clip-path="url(#clip)">
-  <rect class="w1" x="-950" y="48"  width="480" height="0.8" fill="url(#wg)" opacity="0"/>
-  <rect class="w2" x="-950" y="102" width="580" height="0.5" fill="url(#wg)" opacity="0"/>
-  <rect class="w3" x="-950" y="160" width="360" height="0.9" fill="url(#wgr)" opacity="0"/>
-  <rect class="w4" x="-950" y="200" width="500" height="0.4" fill="url(#wg)" opacity="0"/>
-  <rect class="w5" x="-950" y="238" width="400" height="0.7" fill="url(#wgr)" opacity="0"/>
-  <rect class="w6" x="-950" y="78"  width="520" height="0.4" fill="url(#wg)" opacity="0"/>
+<!-- platform cluster -->
+<ellipse cx="790" cy="150" rx="150" ry="118" stroke="#1F2A44" stroke-dasharray="1 7" stroke-linecap="round">
+<animate attributeName="stroke-dashoffset" values="0;80" dur="9s" repeatCount="indefinite"/>
+</ellipse>
+<ellipse cx="790" cy="150" rx="112" ry="88" stroke="#26344F" stroke-dasharray="3 6">
+<animate attributeName="stroke-dashoffset" values="0;-90" dur="6s" repeatCount="indefinite"/>
+</ellipse>
+<line x1="790" y1="150" x2="790" y2="62" stroke="#26344F" stroke-width="1.2"/><line x1="790" y1="150" x2="886.9948" y2="106" stroke="#26344F" stroke-width="1.2"/><line x1="790" y1="150" x2="886.9948" y2="194" stroke="#26344F" stroke-width="1.2"/><line x1="790" y1="150" x2="790" y2="238" stroke="#26344F" stroke-width="1.2"/><line x1="790" y1="150" x2="693.0052" y2="194" stroke="#26344F" stroke-width="1.2"/><line x1="790" y1="150" x2="693.0052" y2="106" stroke="#26344F" stroke-width="1.2"/>
+<circle r="2.8" fill="#38BDF8" opacity="0" filter="url(#glow)"><animateMotion dur="2.6s" begin="0s" repeatCount="indefinite" path="M790,150 L790,62"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="2.6s" begin="0s" repeatCount="indefinite"/></circle><circle r="2.8" fill="#A78BFA" opacity="0" filter="url(#glow)"><animateMotion dur="2.6s" begin="0.43s" repeatCount="indefinite" path="M886.9948,106 L790,150"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="2.6s" begin="0.43s" repeatCount="indefinite"/></circle><circle r="2.8" fill="#38BDF8" opacity="0" filter="url(#glow)"><animateMotion dur="2.6s" begin="0.86s" repeatCount="indefinite" path="M790,150 L886.9948,194"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="2.6s" begin="0.86s" repeatCount="indefinite"/></circle><circle r="2.8" fill="#A78BFA" opacity="0" filter="url(#glow)"><animateMotion dur="2.6s" begin="1.29s" repeatCount="indefinite" path="M790,238 L790,150"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="2.6s" begin="1.29s" repeatCount="indefinite"/></circle><circle r="2.8" fill="#38BDF8" opacity="0" filter="url(#glow)"><animateMotion dur="2.6s" begin="1.72s" repeatCount="indefinite" path="M790,150 L693.0052,194"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="2.6s" begin="1.72s" repeatCount="indefinite"/></circle><circle r="2.8" fill="#A78BFA" opacity="0" filter="url(#glow)"><animateMotion dur="2.6s" begin="2.15s" repeatCount="indefinite" path="M693.0052,106 L790,150"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="2.6s" begin="2.15s" repeatCount="indefinite"/></circle>
+<circle cx="790" cy="150" r="44" stroke="#38BDF8" stroke-opacity="0.45" stroke-dasharray="4 8">
+<animateTransform attributeName="transform" type="rotate" values="0 790 150;360 790 150" dur="18s" repeatCount="indefinite"/>
+</circle>
+<polygon points="790,119 816.8468,134.5 816.8468,165.5 790,181 763.1532,165.5 763.1532,134.5" fill="#0F172A" stroke="url(#accent)" stroke-width="2"/>
+<text x="790" y="155" text-anchor="middle" class="mono" font-size="15" font-weight="700" fill="#E6EDF3">GKE</text>
+<circle cx="790" cy="62" r="7" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0"><animate attributeName="r" values="7;19" dur="2.8s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="2.8s" begin="0s" repeatCount="indefinite"/></circle><circle cx="790" cy="62" r="6.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/><circle cx="790" cy="62" r="2.4" fill="#38BDF8"/><circle cx="886.9948" cy="106" r="7" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0"><animate attributeName="r" values="7;19" dur="2.8s" begin="0.47s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="2.8s" begin="0.47s" repeatCount="indefinite"/></circle><circle cx="886.9948" cy="106" r="6.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/><circle cx="886.9948" cy="106" r="2.4" fill="#38BDF8"/><circle cx="886.9948" cy="194" r="7" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0"><animate attributeName="r" values="7;19" dur="2.8s" begin="0.94s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="2.8s" begin="0.94s" repeatCount="indefinite"/></circle><circle cx="886.9948" cy="194" r="6.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/><circle cx="886.9948" cy="194" r="2.4" fill="#38BDF8"/><circle cx="790" cy="238" r="7" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0"><animate attributeName="r" values="7;19" dur="2.8s" begin="1.41s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="2.8s" begin="1.41s" repeatCount="indefinite"/></circle><circle cx="790" cy="238" r="6.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/><circle cx="790" cy="238" r="2.4" fill="#38BDF8"/><circle cx="693.0052" cy="194" r="7" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0"><animate attributeName="r" values="7;19" dur="2.8s" begin="1.88s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="2.8s" begin="1.88s" repeatCount="indefinite"/></circle><circle cx="693.0052" cy="194" r="6.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/><circle cx="693.0052" cy="194" r="2.4" fill="#38BDF8"/><circle cx="693.0052" cy="106" r="7" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0"><animate attributeName="r" values="7;19" dur="2.8s" begin="2.35s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="2.8s" begin="2.35s" repeatCount="indefinite"/></circle><circle cx="693.0052" cy="106" r="6.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/><circle cx="693.0052" cy="106" r="2.4" fill="#38BDF8"/>
+<text x="790" y="47" text-anchor="middle" class="sans" font-size="12" fill="#8B9BB4">Terraform</text><text x="901.9948" y="110" text-anchor="start" class="sans" font-size="12" fill="#8B9BB4">Argo CD</text><text x="901.9948" y="198" text-anchor="start" class="sans" font-size="12" fill="#8B9BB4">Airflow</text><text x="790" y="263" text-anchor="middle" class="sans" font-size="12" fill="#8B9BB4">Artifact Registry</text><text x="678.0052" y="198" text-anchor="end" class="sans" font-size="12" fill="#8B9BB4">Cloud Build</text><text x="678.0052" y="110" text-anchor="end" class="sans" font-size="12" fill="#8B9BB4">Cloud Run</text>
 </g>
-
-<!-- ══ CRIMSON MAPLE LEAVES (12 leaves, vivid red) ═════════ -->
-<!-- Maple leaf path: 5-lobe, organic -->
-<g clip-path="url(#clip)">
-
-  <!-- leaf 1: large, blood red -->
-  <g class="l1" transform="translate(12,72)" opacity="0">
-    <path d="M0,-14 L2.8,-8.5 L8.5,-11 L5.5,-5 L11.5,-2 L6.5,0 L6,7.5 L0,11.5 L-6,7.5 L-6.5,0 L-11.5,-2 L-5.5,-5 L-8.5,-11 L-2.8,-8.5 Z" fill="#C00018"/>
-    <line x1="0" y1="11.5" x2="0" y2="16" stroke="#8B000E" stroke-width="0.9"/>
-  </g>
-
-  <!-- leaf 2: medium, vivid -->
-  <g class="l2" transform="translate(24,215)" opacity="0">
-    <path d="M0,-11 L2.2,-6.5 L7,-8.5 L4.5,-3.5 L8.5,-1 L4.8,0.5 L4.5,5.5 L0,8.5 L-4.5,5.5 L-4.8,0.5 L-8.5,-1 L-4.5,-3.5 L-7,-8.5 L-2.2,-6.5 Z" fill="#DD0020"/>
-    <line x1="0" y1="8.5" x2="0" y2="12" stroke="#BB0018" stroke-width="0.7"/>
-  </g>
-
-  <!-- leaf 3: large, dark crimson -->
-  <g class="l3" transform="translate(7,148)" opacity="0">
-    <path d="M0,-16 L3.2,-9.5 L9.5,-12 L6.5,-5.5 L13,-2 L7.5,0 L7,8 L0,12.5 L-7,8 L-7.5,0 L-13,-2 L-6.5,-5.5 L-9.5,-12 L-3.2,-9.5 Z" fill="#A80010"/>
-    <line x1="0" y1="12.5" x2="0" y2="17.5" stroke="#880010" stroke-width="1"/>
-  </g>
-
-  <!-- leaf 4: small, bright scarlet -->
-  <g class="l4" transform="translate(30,40)" opacity="0">
-    <path d="M0,-9 L1.8,-5.5 L5.5,-7 L3.5,-2.5 L7,-0.5 L4,0.6 L3.5,4.5 L0,7 L-3.5,4.5 L-4,0.6 L-7,-0.5 L-3.5,-2.5 L-5.5,-7 L-1.8,-5.5 Z" fill="#EE0025"/>
-  </g>
-
-  <!-- leaf 5: medium-large -->
-  <g class="l5" transform="translate(10,272)" opacity="0">
-    <path d="M0,-13 L2.5,-7.5 L8,-9.5 L5,-4.5 L10,-1.5 L5.5,0.5 L5,6.5 L0,10 L-5,6.5 L-5.5,0.5 L-10,-1.5 L-5,-4.5 L-8,-9.5 L-2.5,-7.5 Z" fill="#BB0015"/>
-    <line x1="0" y1="10" x2="0" y2="14" stroke="#990010" stroke-width="0.8"/>
-  </g>
-
-  <!-- leaf 6: small -->
-  <g class="l6" transform="translate(20,110)" opacity="0">
-    <path d="M0,-8.5 L1.7,-5 L5.5,-6.5 L3.5,-2.5 L6.5,0 L3.5,0.7 L3,4.5 L0,6.5 L-3,4.5 L-3.5,0.7 L-6.5,0 L-3.5,-2.5 L-5.5,-6.5 L-1.7,-5 Z" fill="#DD1825"/>
-  </g>
-
-  <!-- leaf 7: large, high start -->
-  <g class="l7" transform="translate(5,22)" opacity="0">
-    <path d="M0,-15 L3,-9 L9,-11.5 L6,-5 L12,-2 L7,0.5 L6.5,8 L0,12 L-6.5,8 L-7,0.5 L-12,-2 L-6,-5 L-9,-11.5 L-3,-9 Z" fill="#C00020"/>
-    <line x1="0" y1="12" x2="0" y2="16.5" stroke="#AA0018" stroke-width="1"/>
-  </g>
-
-  <!-- leaf 8: tiny, accent -->
-  <g class="l8" transform="translate(26,178)" opacity="0">
-    <path d="M0,-7.5 L1.5,-4.5 L4.5,-6 L3,-2 L5.5,0 L3,0.7 L2.5,3.5 L0,5.5 L-2.5,3.5 L-3,0.7 L-5.5,0 L-3,-2 L-4.5,-6 L-1.5,-4.5 Z" fill="#BB1520"/>
-  </g>
-
-  <!-- leaf 9: medium -->
-  <g class="l9" transform="translate(15,295)" opacity="0">
-    <path d="M0,-12 L2.4,-7 L7.5,-9 L5,-4 L9.5,-1 L5.5,0.5 L5,6 L0,9.5 L-5,6 L-5.5,0.5 L-9.5,-1 L-5,-4 L-7.5,-9 L-2.4,-7 Z" fill="#AA0012"/>
-    <line x1="0" y1="9.5" x2="0" y2="13" stroke="#880010" stroke-width="0.7"/>
-  </g>
-
-  <!-- leaf 10: medium, low start -->
-  <g class="l10" transform="translate(22,62)" opacity="0">
-    <path d="M0,-10.5 L2.1,-6.2 L6.8,-8 L4.2,-3.2 L8,-1 L4.5,0.6 L4,5.5 L0,8 L-4,5.5 L-4.5,0.6 L-8,-1 L-4.2,-3.2 L-6.8,-8 L-2.1,-6.2 Z" fill="#DD1020"/>
-  </g>
-
-  <!-- leaf 11: large, mid-height -->
-  <g class="l11" transform="translate(8,130)" opacity="0">
-    <path d="M0,-13.5 L2.7,-8 L8.2,-10.2 L5.5,-4.8 L10.5,-1.8 L6,0.5 L5.5,7 L0,10.5 L-5.5,7 L-6,0.5 L-10.5,-1.8 L-5.5,-4.8 L-8.2,-10.2 L-2.7,-8 Z" fill="#990010"/>
-    <line x1="0" y1="10.5" x2="0" y2="15" stroke="#770009" stroke-width="0.9"/>
-  </g>
-
-  <!-- leaf 12: small, top -->
-  <g class="l12" transform="translate(18,50)" opacity="0">
-    <path d="M0,-8 L1.6,-4.8 L5,-6.2 L3.3,-2.2 L6.2,0 L3.3,0.7 L3,4 L0,6 L-3,4 L-3.3,0.7 L-6.2,0 L-3.3,-2.2 L-5,-6.2 L-1.6,-4.8 Z" fill="#CC1822"/>
-  </g>
-
-</g>
-
-<!-- ══ BORDER FRAME ═════════════════════════════════════════ -->
-<rect x="16" y="12" width="868" height="286" fill="none" stroke="#5A0008" stroke-width="0.8" opacity="0.5"/>
-<rect x="23" y="19" width="854" height="272" fill="none" stroke="#440006" stroke-width="0.4" opacity="0.25"/>
-<!-- Corner L-brackets -->
-<g stroke="#8B0010" stroke-width="2" fill="none" opacity="0.65">
-  <path d="M16,12 L54,12 M16,12 L16,50"/>
-  <path d="M884,12 L846,12 M884,12 L884,50"/>
-  <path d="M16,298 L54,298 M16,298 L16,260"/>
-  <path d="M884,298 L846,298 M884,298 L884,260"/>
-</g>
-<!-- Corner red diamonds -->
-<polygon points="16,12 20,16 16,20 12,16" fill="#CC0018" opacity="0.8"/>
-<polygon points="884,12 888,16 884,20 880,16" fill="#CC0018" opacity="0.8"/>
-<polygon points="16,298 20,294 16,290 12,294" fill="#CC0018" opacity="0.8"/>
-<polygon points="884,298 888,294 884,290 880,294" fill="#CC0018" opacity="0.8"/>
-
-<!-- ══ TEXT CONTENT ══════════════════════════════════════════ -->
-
-<!-- Eyebrow: GHOST OF THE (small, spaced, muted white) -->
-<text x="450" y="66" text-anchor="middle"
-      font-family="Georgia, 'Times New Roman', serif"
-      font-size="10.5" letter-spacing="12" fill="#B8B0A0" opacity="0.75">
-  GHOST  OF  THE
-</text>
-
-<!-- Top rule -->
-<rect x="155" y="74" width="590" height="1" fill="url(#rule)" opacity="0.85"/>
-
-<!-- ★ MAIN TITLE: SENVIDU — cream white like GoT "GHOST" text -->
-<text class="title" x="450" y="165" text-anchor="middle"
-      font-family="Georgia, 'Times New Roman', serif"
-      font-size="90" font-weight="bold" letter-spacing="24"
-      fill="#F0EBE0" filter="url(#titleF)">
-  SENVIDU
-</text>
-
-<!-- Bottom rule -->
-<rect x="155" y="180" width="590" height="1.5" fill="url(#rule)" opacity="1"/>
-<!-- Rule end dots -->
-<circle cx="155" cy="180.75" r="2.8" fill="#CC0018" opacity="0.9"/>
-<circle cx="745" cy="180.75" r="2.8" fill="#CC0018" opacity="0.9"/>
-<circle cx="450" cy="180.75" r="3.5" fill="#F0EBE0" opacity="0.75"/>
-
-<!-- Subtitle: BACKEND API SPECIALIST — vivid crimson -->
-<text class="sub" x="450" y="214" text-anchor="middle"
-      font-family="Georgia, 'Times New Roman', serif"
-      font-size="16" letter-spacing="7"
-      fill="#CC0018" filter="url(#subF)">
-  BACKEND  API  SPECIALIST
-</text>
-
-<!-- Katana diagonal accents -->
-<line x1="85" y1="162" x2="162" y2="175" stroke="#5A0008" stroke-width="0.9" opacity="0.5"/>
-<line x1="738" y1="175" x2="815" y2="162" stroke="#5A0008" stroke-width="0.9" opacity="0.5"/>
-
-<!-- Stack — dark muted gray (barely visible, atmospheric) -->
-<text x="450" y="256" text-anchor="middle"
-      font-family="'Courier New', Courier, monospace"
-      font-size="11" letter-spacing="2" fill="#504540">
-  Java · Spring Boot · Node.js · Rust · PostgreSQL · MongoDB
-</text>
-
-<!-- Blinking cursor -->
-<text class="cur" x="693" y="256" font-family="monospace" font-size="12" fill="#880010" opacity="0.7">▌</text>
-
-<!-- Tagline -->
-<text x="450" y="282" text-anchor="middle"
-      font-family="Georgia, serif" font-size="10"
-      font-style="italic" letter-spacing="0.8" fill="#3A3028" opacity="0.85">
-  "The ghost leaves no trace. Only working systems."
-</text>
+<rect x="0.5" y="0.5" width="999" height="299" rx="17.5" stroke="#1F2A44"/>
 </svg>
